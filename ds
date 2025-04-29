@@ -1,0 +1,48 @@
+[33mcommit c097c12d028503b5f9f58b16d6b5dcccef299e9d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Parvez Wijaya <156204172+Saximn@users.noreply.github.com>
+Date:   Wed Mar 12 09:35:49 2025 +0800
+
+    Initial commit
+
+[1mdiff --git a/LICENSE b/LICENSE[m
+[1mnew file mode 100644[m
+[1mindex 0000000..220407a[m
+[1m--- /dev/null[m
+[1m+++ b/LICENSE[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32mBSD 3-Clause License[m
+[32m+[m
+[32m+[m[32mCopyright (c) 2025, Parvez Wijaya[m
+[32m+[m
+[32m+[m[32mRedistribution and use in source and binary forms, with or without[m
+[32m+[m[32mmodification, are permitted provided that the following conditions are met:[m
+[32m+[m
+[32m+[m[32m1. Redistributions of source code must retain the above copyright notice, this[m
+[32m+[m[32m   list of conditions and the following disclaimer.[m
+[32m+[m
+[32m+[m[32m2. Redistributions in binary form must reproduce the above copyright notice,[m
+[32m+[m[32m   this list of conditions and the following disclaimer in the documentation[m
+[32m+[m[32m   and/or other materials provided with the distribution.[m
+[32m+[m
+[32m+[m[32m3. Neither the name of the copyright holder nor the names of its[m
+[32m+[m[32m   contributors may be used to endorse or promote products derived from[m
+[32m+[m[32m   this software without specific prior written permission.[m
+[32m+[m
+[32m+[m[32mTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"[m
+[32m+[m[32mAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE[m
+[32m+[m[32mIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE[m
+[32m+[m[32mDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE[m
+[32m+[m[32mFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL[m
+[32m+[m[32mDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR[m
+[32m+[m[32mSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER[m
+[32m+[m[32mCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,[m
+[32m+[m[32mOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE[m
+[32m+[m[32mOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.[m
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e92f546[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m# naisc-2025[m
+[32m+[m[32mNational AI Student Challenge 2025 - Huawei Track 2[m
