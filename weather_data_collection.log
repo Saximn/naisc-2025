@@ -1,0 +1,1285 @@
+2025-04-28 20:51:39,814 - INFO - Created directory: singapore_weather_data
+2025-04-28 20:51:39,815 - INFO - Created directory: singapore_weather_data\2024_11
+2025-04-28 20:51:39,815 - INFO - Collecting data for 2024_11: 2024-11-22 to 2024-11-22
+2025-04-28 20:51:39,816 - INFO - Created directory: singapore_weather_data\2024_11\temperature
+2025-04-28 20:51:39,817 - INFO - Created directory: singapore_weather_data\2024_11\rainfall
+2025-04-28 20:51:39,817 - INFO - Created directory: singapore_weather_data\2024_11\humidity
+2025-04-28 20:51:39,818 - INFO - Created directory: singapore_weather_data\2024_11\wind_direction
+2025-04-28 20:51:39,820 - INFO - Created directory: singapore_weather_data\2024_11\wind_speed
+2025-04-28 20:51:39,821 - INFO - Creating date range from 2024-11-22 to 2024-11-22
+2025-04-28 20:51:39,822 - INFO - Generated 24 timestamps
+2025-04-28 20:51:39,822 - INFO - Processing temperature data
+2025-04-28 20:52:13,335 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S109_Ang_Mo_Kio_Avenue_5_temperature.csv
+2025-04-28 20:52:13,337 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S106_Pulau_Ubin_temperature.csv
+2025-04-28 20:52:13,340 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S117_Banyan_Road_temperature.csv
+2025-04-28 20:52:13,341 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S107_East_Coast_Parkway_temperature.csv
+2025-04-28 20:52:13,342 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S104_Woodlands_Avenue_9_temperature.csv
+2025-04-28 20:52:13,343 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S115_Tuas_South_Avenue_3_temperature.csv
+2025-04-28 20:52:13,345 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S116_West_Coast_Highway_temperature.csv
+2025-04-28 20:52:13,346 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S60_Sentosa_temperature.csv
+2025-04-28 20:52:13,347 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S50_Clementi_Road_temperature.csv
+2025-04-28 20:52:13,349 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S44_Nanyang_Avenue_temperature.csv
+2025-04-28 20:52:13,350 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S43_Kim_Chuan_Road_temperature.csv
+2025-04-28 20:52:13,351 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S24_Upper_Changi_Road_North_temperature.csv
+2025-04-28 20:52:13,352 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S06_Paya_Lebar_temperature.csv
+2025-04-28 20:52:13,354 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S111_Scotts_Road_temperature.csv
+2025-04-28 20:52:13,356 - INFO - Saved 24 records to singapore_weather_data\2024_11\temperature\S121_Old_Choa_Chu_Kang_Road_temperature.csv
+2025-04-28 20:52:13,357 - INFO - Processing rainfall data
+2025-04-28 20:52:41,418 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S218_Bukit_Batok_Street_34_rainfall.csv
+2025-04-28 20:52:41,420 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S219_Yio_Chu_Kang_Road_rainfall.csv
+2025-04-28 20:52:41,422 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S216_Ang_Mo_Kio_Avenue_10_rainfall.csv
+2025-04-28 20:52:41,422 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S217_Bishan_Street_13_rainfall.csv
+2025-04-28 20:52:41,423 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S214_Tanjong_Rhu_rainfall.csv
+2025-04-28 20:52:41,424 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S215_Geylang_East_Central_rainfall.csv
+2025-04-28 20:52:41,425 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S213_Coronation_Walk_rainfall.csv
+2025-04-28 20:52:41,426 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S81_Punggol_Central_rainfall.csv
+2025-04-28 20:52:41,427 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S40_Mandai_Lake_Road_rainfall.csv
+2025-04-28 20:52:41,429 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S84_Simei_Avenue_rainfall.csv
+2025-04-28 20:52:41,430 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S44_Nanyang_Avenue_rainfall.csv
+2025-04-28 20:52:41,431 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S88_Toa_Payoh_North_rainfall.csv
+2025-04-28 20:52:41,433 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S43_Kim_Chuan_Road_rainfall.csv
+2025-04-28 20:52:41,434 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S89_Tuas_Road_rainfall.csv
+2025-04-28 20:52:41,437 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S06_Paya_Lebar_rainfall.csv
+2025-04-28 20:52:41,439 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S221_Hougang_Avenue_1_rainfall.csv
+2025-04-28 20:52:41,441 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S222_Henderson_Road_rainfall.csv
+2025-04-28 20:52:41,443 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S08_Upper_Thomson_Road_rainfall.csv
+2025-04-28 20:52:41,444 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S07_Lornie_Road_rainfall.csv
+2025-04-28 20:52:41,446 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S220_Compassvale_Lane_rainfall.csv
+2025-04-28 20:52:41,447 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S207_Bedok_Road_rainfall.csv
+2025-04-28 20:52:41,448 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S208_Changi_East_Close_rainfall.csv
+2025-04-28 20:52:41,449 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S203_Pasir_Panjang_rainfall.csv
+2025-04-28 20:52:41,450 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S201_Clementi_Park_rainfall.csv
+2025-04-28 20:52:41,452 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S90_Bukit_Timah_Road_rainfall.csv
+2025-04-28 20:52:41,453 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S209_Yishun_Ring_Road_rainfall.csv
+2025-04-28 20:52:41,454 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S50_Clementi_Road_rainfall.csv
+2025-04-28 20:52:41,455 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S210_Woodlands_Centre_rainfall.csv
+2025-04-28 20:52:41,457 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S211_Kranji_Road_rainfall.csv
+2025-04-28 20:52:41,458 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S119_Nicoll_Highway_rainfall.csv
+2025-04-28 20:52:41,459 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S117_Banyan_Road_rainfall.csv
+2025-04-28 20:52:41,460 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S115_Tuas_South_Avenue_3_rainfall.csv
+2025-04-28 20:52:41,461 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S116_West_Coast_Highway_rainfall.csv
+2025-04-28 20:52:41,462 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S113_Marine_Parade_Road_rainfall.csv
+2025-04-28 20:52:41,464 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S60_Sentosa_rainfall.csv
+2025-04-28 20:52:41,465 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S64_Bukit_Panjang_Road_rainfall.csv
+2025-04-28 20:52:41,466 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S66_Kranji_Way_rainfall.csv
+2025-04-28 20:52:41,467 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S24_Upper_Changi_Road_North_rainfall.csv
+2025-04-28 20:52:41,468 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S69_Upper_Peirce_Reservoir_Park_rainfall.csv
+2025-04-28 20:52:41,470 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S29_Pasir_Ris_Drive_12_rainfall.csv
+2025-04-28 20:52:41,471 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S121_Old_Choa_Chu_Kang_Road_rainfall.csv
+2025-04-28 20:52:41,472 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S229_Jurong_West_Street_42_rainfall.csv
+2025-04-28 20:52:41,473 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S900_Seletar_Aerospace_View_rainfall.csv
+2025-04-28 20:52:41,474 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S109_Ang_Mo_Kio_Avenue_5_rainfall.csv
+2025-04-28 20:52:41,476 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S106_Pulau_Ubin_rainfall.csv
+2025-04-28 20:52:41,478 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S227_Woodlands_Drive_62_rainfall.csv
+2025-04-28 20:52:41,480 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S107_East_Coast_Parkway_rainfall.csv
+2025-04-28 20:52:41,481 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S228_Jurong_West_Street_73_rainfall.csv
+2025-04-28 20:52:41,482 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S104_Woodlands_Avenue_9_rainfall.csv
+2025-04-28 20:52:41,483 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S226_Malan_Road_rainfall.csv
+2025-04-28 20:52:41,484 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S223_Margaret_Drive_rainfall.csv
+2025-04-28 20:52:41,486 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S224_Airport_Boulevard_rainfall.csv
+2025-04-28 20:52:41,487 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S71_Kent_Ridge_Road_rainfall.csv
+2025-04-28 20:52:41,488 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S33_Jurong_Pier_Road_rainfall.csv
+2025-04-28 20:52:41,490 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S77_Alexandra_Road_rainfall.csv
+2025-04-28 20:52:41,491 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S35_Old_Toh_Tuck_Road_rainfall.csv
+2025-04-28 20:52:41,492 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S79_Somerset_Road_rainfall.csv
+2025-04-28 20:52:41,494 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S78_Poole_Road_rainfall.csv
+2025-04-28 20:52:41,495 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S111_Scotts_Road_rainfall.csv
+2025-04-28 20:52:41,496 - INFO - Saved 24 records to singapore_weather_data\2024_11\rainfall\S230_West_Coast_Road_rainfall.csv
+2025-04-28 20:52:41,497 - INFO - Processing humidity data
+2025-04-28 20:53:14,181 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S109_Ang_Mo_Kio_Avenue_5_humidity.csv
+2025-04-28 20:53:14,183 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S106_Pulau_Ubin_humidity.csv
+2025-04-28 20:53:14,185 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S117_Banyan_Road_humidity.csv
+2025-04-28 20:53:14,187 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S107_East_Coast_Parkway_humidity.csv
+2025-04-28 20:53:14,189 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S104_Woodlands_Avenue_9_humidity.csv
+2025-04-28 20:53:14,190 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S115_Tuas_South_Avenue_3_humidity.csv
+2025-04-28 20:53:14,192 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S116_West_Coast_Highway_humidity.csv
+2025-04-28 20:53:14,193 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S60_Sentosa_humidity.csv
+2025-04-28 20:53:14,195 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S50_Clementi_Road_humidity.csv
+2025-04-28 20:53:14,196 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S44_Nanyang_Avenue_humidity.csv
+2025-04-28 20:53:14,198 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S43_Kim_Chuan_Road_humidity.csv
+2025-04-28 20:53:14,200 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S24_Upper_Changi_Road_North_humidity.csv
+2025-04-28 20:53:14,201 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S06_Paya_Lebar_humidity.csv
+2025-04-28 20:53:14,203 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S111_Scotts_Road_humidity.csv
+2025-04-28 20:53:14,205 - INFO - Saved 24 records to singapore_weather_data\2024_11\humidity\S121_Old_Choa_Chu_Kang_Road_humidity.csv
+2025-04-28 20:53:14,205 - INFO - Processing wind_direction data
+2025-04-28 20:53:47,264 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S108_Marina_Gardens_Drive_wind_direction.csv
+2025-04-28 20:53:47,266 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S109_Ang_Mo_Kio_Avenue_5_wind_direction.csv
+2025-04-28 20:53:47,267 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S106_Pulau_Ubin_wind_direction.csv
+2025-04-28 20:53:47,269 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S117_Banyan_Road_wind_direction.csv
+2025-04-28 20:53:47,270 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S107_East_Coast_Parkway_wind_direction.csv
+2025-04-28 20:53:47,271 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S104_Woodlands_Avenue_9_wind_direction.csv
+2025-04-28 20:53:47,273 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S115_Tuas_South_Avenue_3_wind_direction.csv
+2025-04-28 20:53:47,274 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S116_West_Coast_Highway_wind_direction.csv
+2025-04-28 20:53:47,275 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S60_Sentosa_wind_direction.csv
+2025-04-28 20:53:47,277 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S50_Clementi_Road_wind_direction.csv
+2025-04-28 20:53:47,279 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S44_Nanyang_Avenue_wind_direction.csv
+2025-04-28 20:53:47,280 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S43_Kim_Chuan_Road_wind_direction.csv
+2025-04-28 20:53:47,282 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S06_Paya_Lebar_wind_direction.csv
+2025-04-28 20:53:47,283 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S111_Scotts_Road_wind_direction.csv
+2025-04-28 20:53:47,285 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_direction\S121_Old_Choa_Chu_Kang_Road_wind_direction.csv
+2025-04-28 20:53:47,285 - INFO - Processing wind_speed data
+2025-04-28 20:54:20,998 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S108_Marina_Gardens_Drive_wind_speed.csv
+2025-04-28 20:54:21,000 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S109_Ang_Mo_Kio_Avenue_5_wind_speed.csv
+2025-04-28 20:54:21,002 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S106_Pulau_Ubin_wind_speed.csv
+2025-04-28 20:54:21,003 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S117_Banyan_Road_wind_speed.csv
+2025-04-28 20:54:21,004 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S107_East_Coast_Parkway_wind_speed.csv
+2025-04-28 20:54:21,005 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S104_Woodlands_Avenue_9_wind_speed.csv
+2025-04-28 20:54:21,007 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S115_Tuas_South_Avenue_3_wind_speed.csv
+2025-04-28 20:54:21,008 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S116_West_Coast_Highway_wind_speed.csv
+2025-04-28 20:54:21,010 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S60_Sentosa_wind_speed.csv
+2025-04-28 20:54:21,011 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S50_Clementi_Road_wind_speed.csv
+2025-04-28 20:54:21,013 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S44_Nanyang_Avenue_wind_speed.csv
+2025-04-28 20:54:21,015 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S43_Kim_Chuan_Road_wind_speed.csv
+2025-04-28 20:54:21,016 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S06_Paya_Lebar_wind_speed.csv
+2025-04-28 20:54:21,017 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S111_Scotts_Road_wind_speed.csv
+2025-04-28 20:54:21,019 - INFO - Saved 24 records to singapore_weather_data\2024_11\wind_speed\S121_Old_Choa_Chu_Kang_Road_wind_speed.csv
+2025-04-28 20:54:21,021 - INFO - Saved metadata for 61 stations to singapore_weather_data\2024_11\station_metadata.csv
+2025-04-28 20:54:21,022 - INFO - Created directory: singapore_weather_by_station
+2025-04-28 20:54:21,023 - INFO - Created directory: singapore_weather_by_station\temperature
+2025-04-28 20:54:21,024 - INFO - Created directory: singapore_weather_by_station\rainfall
+2025-04-28 20:54:21,025 - INFO - Created directory: singapore_weather_by_station\humidity
+2025-04-28 20:54:21,027 - INFO - Created directory: singapore_weather_by_station\wind_direction
+2025-04-28 20:54:21,028 - INFO - Created directory: singapore_weather_by_station\wind_speed
+2025-04-28 20:54:21,964 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S06_temperature.csv
+2025-04-28 20:54:21,966 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S104_temperature.csv
+2025-04-28 20:54:21,970 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S106_temperature.csv
+2025-04-28 20:54:21,972 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S107_temperature.csv
+2025-04-28 20:54:21,974 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S109_temperature.csv
+2025-04-28 20:54:21,977 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S111_temperature.csv
+2025-04-28 20:54:21,980 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S115_temperature.csv
+2025-04-28 20:54:21,983 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S116_temperature.csv
+2025-04-28 20:54:21,986 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S117_temperature.csv
+2025-04-28 20:54:21,989 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S121_temperature.csv
+2025-04-28 20:54:21,992 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S24_temperature.csv
+2025-04-28 20:54:21,995 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S43_temperature.csv
+2025-04-28 20:54:21,998 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S44_temperature.csv
+2025-04-28 20:54:22,000 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S50_temperature.csv
+2025-04-28 20:54:22,004 - INFO - Saved merged data with 24 records to singapore_weather_by_station\temperature\S60_temperature.csv
+2025-04-28 20:54:22,007 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S06_rainfall.csv
+2025-04-28 20:54:22,010 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S07_rainfall.csv
+2025-04-28 20:54:22,013 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S08_rainfall.csv
+2025-04-28 20:54:22,015 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S104_rainfall.csv
+2025-04-28 20:54:22,017 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S106_rainfall.csv
+2025-04-28 20:54:22,020 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S107_rainfall.csv
+2025-04-28 20:54:22,022 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S109_rainfall.csv
+2025-04-28 20:54:22,026 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S111_rainfall.csv
+2025-04-28 20:54:22,029 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S113_rainfall.csv
+2025-04-28 20:54:22,032 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S115_rainfall.csv
+2025-04-28 20:54:22,035 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S116_rainfall.csv
+2025-04-28 20:54:22,038 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S117_rainfall.csv
+2025-04-28 20:54:22,041 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S119_rainfall.csv
+2025-04-28 20:54:22,045 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S121_rainfall.csv
+2025-04-28 20:54:22,048 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S201_rainfall.csv
+2025-04-28 20:54:22,052 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S203_rainfall.csv
+2025-04-28 20:54:22,055 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S207_rainfall.csv
+2025-04-28 20:54:22,058 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S208_rainfall.csv
+2025-04-28 20:54:22,061 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S209_rainfall.csv
+2025-04-28 20:54:22,065 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S210_rainfall.csv
+2025-04-28 20:54:22,069 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S211_rainfall.csv
+2025-04-28 20:54:22,072 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S213_rainfall.csv
+2025-04-28 20:54:22,075 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S214_rainfall.csv
+2025-04-28 20:54:22,079 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S215_rainfall.csv
+2025-04-28 20:54:22,082 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S216_rainfall.csv
+2025-04-28 20:54:22,086 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S217_rainfall.csv
+2025-04-28 20:54:22,089 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S218_rainfall.csv
+2025-04-28 20:54:22,092 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S219_rainfall.csv
+2025-04-28 20:54:22,096 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S220_rainfall.csv
+2025-04-28 20:54:22,098 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S221_rainfall.csv
+2025-04-28 20:54:22,101 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S222_rainfall.csv
+2025-04-28 20:54:22,104 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S223_rainfall.csv
+2025-04-28 20:54:22,106 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S224_rainfall.csv
+2025-04-28 20:54:22,109 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S226_rainfall.csv
+2025-04-28 20:54:22,112 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S227_rainfall.csv
+2025-04-28 20:54:22,114 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S228_rainfall.csv
+2025-04-28 20:54:22,117 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S229_rainfall.csv
+2025-04-28 20:54:22,121 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S230_rainfall.csv
+2025-04-28 20:54:22,123 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S24_rainfall.csv
+2025-04-28 20:54:22,125 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S29_rainfall.csv
+2025-04-28 20:54:22,128 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S33_rainfall.csv
+2025-04-28 20:54:22,131 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S35_rainfall.csv
+2025-04-28 20:54:22,133 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S40_rainfall.csv
+2025-04-28 20:54:22,137 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S43_rainfall.csv
+2025-04-28 20:54:22,139 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S44_rainfall.csv
+2025-04-28 20:54:22,142 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S50_rainfall.csv
+2025-04-28 20:54:22,145 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S60_rainfall.csv
+2025-04-28 20:54:22,147 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S64_rainfall.csv
+2025-04-28 20:54:22,150 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S66_rainfall.csv
+2025-04-28 20:54:22,153 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S69_rainfall.csv
+2025-04-28 20:54:22,155 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S71_rainfall.csv
+2025-04-28 20:54:22,158 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S77_rainfall.csv
+2025-04-28 20:54:22,161 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S78_rainfall.csv
+2025-04-28 20:54:22,164 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S79_rainfall.csv
+2025-04-28 20:54:22,166 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S81_rainfall.csv
+2025-04-28 20:54:22,170 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S84_rainfall.csv
+2025-04-28 20:54:22,173 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S88_rainfall.csv
+2025-04-28 20:54:22,175 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S89_rainfall.csv
+2025-04-28 20:54:22,178 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S900_rainfall.csv
+2025-04-28 20:54:22,180 - INFO - Saved merged data with 24 records to singapore_weather_by_station\rainfall\S90_rainfall.csv
+2025-04-28 20:54:22,182 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S06_humidity.csv
+2025-04-28 20:54:22,185 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S104_humidity.csv
+2025-04-28 20:54:22,187 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S106_humidity.csv
+2025-04-28 20:54:22,190 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S107_humidity.csv
+2025-04-28 20:54:22,192 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S109_humidity.csv
+2025-04-28 20:54:22,195 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S111_humidity.csv
+2025-04-28 20:54:22,197 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S115_humidity.csv
+2025-04-28 20:54:22,200 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S116_humidity.csv
+2025-04-28 20:54:22,203 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S117_humidity.csv
+2025-04-28 20:54:22,205 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S121_humidity.csv
+2025-04-28 20:54:22,206 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S24_humidity.csv
+2025-04-28 20:54:22,209 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S43_humidity.csv
+2025-04-28 20:54:22,212 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S44_humidity.csv
+2025-04-28 20:54:22,216 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S50_humidity.csv
+2025-04-28 20:54:22,220 - INFO - Saved merged data with 24 records to singapore_weather_by_station\humidity\S60_humidity.csv
+2025-04-28 20:54:22,222 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S06_wind_direction.csv
+2025-04-28 20:54:22,225 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S104_wind_direction.csv
+2025-04-28 20:54:22,229 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S106_wind_direction.csv
+2025-04-28 20:54:22,231 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S107_wind_direction.csv
+2025-04-28 20:54:22,233 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S108_wind_direction.csv
+2025-04-28 20:54:22,236 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S109_wind_direction.csv
+2025-04-28 20:54:22,239 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S111_wind_direction.csv
+2025-04-28 20:54:22,242 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S115_wind_direction.csv
+2025-04-28 20:54:22,245 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S116_wind_direction.csv
+2025-04-28 20:54:22,247 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S117_wind_direction.csv
+2025-04-28 20:54:22,249 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S121_wind_direction.csv
+2025-04-28 20:54:22,253 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S43_wind_direction.csv
+2025-04-28 20:54:22,256 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S44_wind_direction.csv
+2025-04-28 20:54:22,258 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S50_wind_direction.csv
+2025-04-28 20:54:22,261 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_direction\S60_wind_direction.csv
+2025-04-28 20:54:22,263 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S06_wind_speed.csv
+2025-04-28 20:54:22,267 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S104_wind_speed.csv
+2025-04-28 20:54:22,270 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S106_wind_speed.csv
+2025-04-28 20:54:22,273 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S107_wind_speed.csv
+2025-04-28 20:54:22,276 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S108_wind_speed.csv
+2025-04-28 20:54:22,279 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S109_wind_speed.csv
+2025-04-28 20:54:22,281 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S111_wind_speed.csv
+2025-04-28 20:54:22,285 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S115_wind_speed.csv
+2025-04-28 20:54:22,287 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S116_wind_speed.csv
+2025-04-28 20:54:22,289 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S117_wind_speed.csv
+2025-04-28 20:54:22,292 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S121_wind_speed.csv
+2025-04-28 20:54:22,295 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S43_wind_speed.csv
+2025-04-28 20:54:22,297 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S44_wind_speed.csv
+2025-04-28 20:54:22,299 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S50_wind_speed.csv
+2025-04-28 20:54:22,302 - INFO - Saved merged data with 24 records to singapore_weather_by_station\wind_speed\S60_wind_speed.csv
+2025-04-28 20:54:22,303 - INFO - Data collection complete!
+2025-04-28 20:56:17,616 - INFO - Created directory: singapore_weather_monthly
+2025-04-28 20:56:17,617 - INFO - Created directory: singapore_weather_monthly\2024_11
+2025-04-28 20:56:17,618 - INFO - Collecting data for 2024_11: 2024-11-22 to 2024-11-22
+2025-04-28 20:56:17,618 - INFO - Creating date range from 2024-11-22 to 2024-11-22
+2025-04-28 20:56:17,619 - INFO - Generated 24 timestamps
+2025-04-28 20:58:51,845 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-28 20:58:51,847 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S106_Pulau_Ubin.csv
+2025-04-28 20:58:51,850 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S117_Banyan_Road.csv
+2025-04-28 20:58:51,852 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S107_East_Coast_Parkway.csv
+2025-04-28 20:58:51,855 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S104_Woodlands_Avenue_9.csv
+2025-04-28 20:58:51,859 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S115_Tuas_South_Avenue_3.csv
+2025-04-28 20:58:51,861 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S116_West_Coast_Highway.csv
+2025-04-28 20:58:51,864 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S60_Sentosa.csv
+2025-04-28 20:58:51,867 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S50_Clementi_Road.csv
+2025-04-28 20:58:51,870 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S44_Nanyang_Avenue.csv
+2025-04-28 20:58:51,874 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S43_Kim_Chuan_Road.csv
+2025-04-28 20:58:51,876 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S24_Upper_Changi_Road_North.csv
+2025-04-28 20:58:51,879 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S06_Paya_Lebar.csv
+2025-04-28 20:58:51,883 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S111_Scotts_Road.csv
+2025-04-28 20:58:51,886 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-28 20:58:51,889 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S218_Bukit_Batok_Street_34.csv
+2025-04-28 20:58:51,892 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S219_Yio_Chu_Kang_Road.csv
+2025-04-28 20:58:51,894 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-28 20:58:51,898 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S217_Bishan_Street_13.csv
+2025-04-28 20:58:51,901 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S214_Tanjong_Rhu.csv
+2025-04-28 20:58:51,904 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S215_Geylang_East_Central.csv
+2025-04-28 20:58:51,908 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S213_Coronation_Walk.csv
+2025-04-28 20:58:51,910 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S81_Punggol_Central.csv
+2025-04-28 20:58:51,913 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S40_Mandai_Lake_Road.csv
+2025-04-28 20:58:51,917 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S84_Simei_Avenue.csv
+2025-04-28 20:58:51,919 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S88_Toa_Payoh_North.csv
+2025-04-28 20:58:51,922 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S89_Tuas_Road.csv
+2025-04-28 20:58:51,925 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S221_Hougang_Avenue_1.csv
+2025-04-28 20:58:51,928 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S222_Henderson_Road.csv
+2025-04-28 20:58:51,931 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S08_Upper_Thomson_Road.csv
+2025-04-28 20:58:51,934 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S07_Lornie_Road.csv
+2025-04-28 20:58:51,937 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S220_Compassvale_Lane.csv
+2025-04-28 20:58:51,940 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S207_Bedok_Road.csv
+2025-04-28 20:58:51,943 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S208_Changi_East_Close.csv
+2025-04-28 20:58:51,945 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S203_Pasir_Panjang.csv
+2025-04-28 20:58:51,948 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S201_Clementi_Park.csv
+2025-04-28 20:58:51,951 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S90_Bukit_Timah_Road.csv
+2025-04-28 20:58:51,955 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S209_Yishun_Ring_Road.csv
+2025-04-28 20:58:51,957 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S210_Woodlands_Centre.csv
+2025-04-28 20:58:51,960 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S211_Kranji_Road.csv
+2025-04-28 20:58:51,963 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S119_Nicoll_Highway.csv
+2025-04-28 20:58:51,966 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S113_Marine_Parade_Road.csv
+2025-04-28 20:58:51,968 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S64_Bukit_Panjang_Road.csv
+2025-04-28 20:58:51,972 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S66_Kranji_Way.csv
+2025-04-28 20:58:51,974 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-28 20:58:51,977 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S29_Pasir_Ris_Drive_12.csv
+2025-04-28 20:58:51,980 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S229_Jurong_West_Street_42.csv
+2025-04-28 20:58:51,982 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S900_Seletar_Aerospace_View.csv
+2025-04-28 20:58:51,985 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S227_Woodlands_Drive_62.csv
+2025-04-28 20:58:51,988 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S228_Jurong_West_Street_73.csv
+2025-04-28 20:58:51,991 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S226_Malan_Road.csv
+2025-04-28 20:58:51,994 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S223_Margaret_Drive.csv
+2025-04-28 20:58:51,997 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S224_Airport_Boulevard.csv
+2025-04-28 20:58:52,000 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S71_Kent_Ridge_Road.csv
+2025-04-28 20:58:52,002 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S33_Jurong_Pier_Road.csv
+2025-04-28 20:58:52,005 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S77_Alexandra_Road.csv
+2025-04-28 20:58:52,008 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S35_Old_Toh_Tuck_Road.csv
+2025-04-28 20:58:52,011 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S79_Somerset_Road.csv
+2025-04-28 20:58:52,014 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S78_Poole_Road.csv
+2025-04-28 20:58:52,016 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S230_West_Coast_Road.csv
+2025-04-28 20:58:52,019 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S108_Marina_Gardens_Drive.csv
+2025-04-28 20:58:52,021 - INFO - Saved metadata for 61 stations to singapore_weather_monthly\2024_11\station_metadata.csv
+2025-04-28 20:58:52,022 - INFO - Created directory: singapore_weather_stations
+2025-04-28 20:58:52,023 - INFO - Saved complete metadata for 61 stations to singapore_weather_stations\all_station_metadata.csv
+2025-04-28 20:58:52,039 - INFO - Saved merged data with 24 records to singapore_weather_stations\S06_Paya_Lebar.csv
+2025-04-28 20:58:52,051 - INFO - Saved merged data with 24 records to singapore_weather_stations\S07_Lornie_Road.csv
+2025-04-28 20:58:52,062 - INFO - Saved merged data with 24 records to singapore_weather_stations\S08_Upper_Thomson_Road.csv
+2025-04-28 20:58:52,074 - INFO - Saved merged data with 24 records to singapore_weather_stations\S104_Woodlands_Avenue_9.csv
+2025-04-28 20:58:52,085 - INFO - Saved merged data with 24 records to singapore_weather_stations\S106_Pulau_Ubin.csv
+2025-04-28 20:58:52,098 - INFO - Saved merged data with 24 records to singapore_weather_stations\S107_East_Coast_Parkway.csv
+2025-04-28 20:58:52,109 - INFO - Saved merged data with 24 records to singapore_weather_stations\S108_Marina_Gardens_Drive.csv
+2025-04-28 20:58:52,121 - INFO - Saved merged data with 24 records to singapore_weather_stations\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-28 20:58:52,132 - INFO - Saved merged data with 24 records to singapore_weather_stations\S111_Scotts_Road.csv
+2025-04-28 20:58:52,145 - INFO - Saved merged data with 24 records to singapore_weather_stations\S113_Marine_Parade_Road.csv
+2025-04-28 20:58:52,157 - INFO - Saved merged data with 24 records to singapore_weather_stations\S115_Tuas_South_Avenue_3.csv
+2025-04-28 20:58:52,168 - INFO - Saved merged data with 24 records to singapore_weather_stations\S116_West_Coast_Highway.csv
+2025-04-28 20:58:52,180 - INFO - Saved merged data with 24 records to singapore_weather_stations\S117_Banyan_Road.csv
+2025-04-28 20:58:52,191 - INFO - Saved merged data with 24 records to singapore_weather_stations\S119_Nicoll_Highway.csv
+2025-04-28 20:58:52,203 - INFO - Saved merged data with 24 records to singapore_weather_stations\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-28 20:58:52,213 - INFO - Saved merged data with 24 records to singapore_weather_stations\S201_Clementi_Park.csv
+2025-04-28 20:58:52,223 - INFO - Saved merged data with 24 records to singapore_weather_stations\S203_Pasir_Panjang.csv
+2025-04-28 20:58:52,233 - INFO - Saved merged data with 24 records to singapore_weather_stations\S207_Bedok_Road.csv
+2025-04-28 20:58:52,244 - INFO - Saved merged data with 24 records to singapore_weather_stations\S208_Changi_East_Close.csv
+2025-04-28 20:58:52,254 - INFO - Saved merged data with 24 records to singapore_weather_stations\S209_Yishun_Ring_Road.csv
+2025-04-28 20:58:52,264 - INFO - Saved merged data with 24 records to singapore_weather_stations\S210_Woodlands_Centre.csv
+2025-04-28 20:58:52,276 - INFO - Saved merged data with 24 records to singapore_weather_stations\S211_Kranji_Road.csv
+2025-04-28 20:58:52,287 - INFO - Saved merged data with 24 records to singapore_weather_stations\S213_Coronation_Walk.csv
+2025-04-28 20:58:52,297 - INFO - Saved merged data with 24 records to singapore_weather_stations\S214_Tanjong_Rhu.csv
+2025-04-28 20:58:52,308 - INFO - Saved merged data with 24 records to singapore_weather_stations\S215_Geylang_East_Central.csv
+2025-04-28 20:58:52,319 - INFO - Saved merged data with 24 records to singapore_weather_stations\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-28 20:58:52,330 - INFO - Saved merged data with 24 records to singapore_weather_stations\S217_Bishan_Street_13.csv
+2025-04-28 20:58:52,340 - INFO - Saved merged data with 24 records to singapore_weather_stations\S218_Bukit_Batok_Street_34.csv
+2025-04-28 20:58:52,351 - INFO - Saved merged data with 24 records to singapore_weather_stations\S219_Yio_Chu_Kang_Road.csv
+2025-04-28 20:58:52,362 - INFO - Saved merged data with 24 records to singapore_weather_stations\S220_Compassvale_Lane.csv
+2025-04-28 20:58:52,373 - INFO - Saved merged data with 24 records to singapore_weather_stations\S221_Hougang_Avenue_1.csv
+2025-04-28 20:58:52,383 - INFO - Saved merged data with 24 records to singapore_weather_stations\S222_Henderson_Road.csv
+2025-04-28 20:58:52,394 - INFO - Saved merged data with 24 records to singapore_weather_stations\S223_Margaret_Drive.csv
+2025-04-28 20:58:52,405 - INFO - Saved merged data with 24 records to singapore_weather_stations\S224_Airport_Boulevard.csv
+2025-04-28 20:58:52,415 - INFO - Saved merged data with 24 records to singapore_weather_stations\S226_Malan_Road.csv
+2025-04-28 20:58:52,426 - INFO - Saved merged data with 24 records to singapore_weather_stations\S227_Woodlands_Drive_62.csv
+2025-04-28 20:58:52,436 - INFO - Saved merged data with 24 records to singapore_weather_stations\S228_Jurong_West_Street_73.csv
+2025-04-28 20:58:52,448 - INFO - Saved merged data with 24 records to singapore_weather_stations\S229_Jurong_West_Street_42.csv
+2025-04-28 20:58:52,460 - INFO - Saved merged data with 24 records to singapore_weather_stations\S230_West_Coast_Road.csv
+2025-04-28 20:58:52,472 - INFO - Saved merged data with 24 records to singapore_weather_stations\S24_Upper_Changi_Road_North.csv
+2025-04-28 20:58:52,483 - INFO - Saved merged data with 24 records to singapore_weather_stations\S29_Pasir_Ris_Drive_12.csv
+2025-04-28 20:58:52,494 - INFO - Saved merged data with 24 records to singapore_weather_stations\S33_Jurong_Pier_Road.csv
+2025-04-28 20:58:52,504 - INFO - Saved merged data with 24 records to singapore_weather_stations\S35_Old_Toh_Tuck_Road.csv
+2025-04-28 20:58:52,515 - INFO - Saved merged data with 24 records to singapore_weather_stations\S40_Mandai_Lake_Road.csv
+2025-04-28 20:58:52,526 - INFO - Saved merged data with 24 records to singapore_weather_stations\S43_Kim_Chuan_Road.csv
+2025-04-28 20:58:52,540 - INFO - Saved merged data with 24 records to singapore_weather_stations\S44_Nanyang_Avenue.csv
+2025-04-28 20:58:52,552 - INFO - Saved merged data with 24 records to singapore_weather_stations\S50_Clementi_Road.csv
+2025-04-28 20:58:52,563 - INFO - Saved merged data with 24 records to singapore_weather_stations\S60_Sentosa.csv
+2025-04-28 20:58:52,575 - INFO - Saved merged data with 24 records to singapore_weather_stations\S64_Bukit_Panjang_Road.csv
+2025-04-28 20:58:52,586 - INFO - Saved merged data with 24 records to singapore_weather_stations\S66_Kranji_Way.csv
+2025-04-28 20:58:52,597 - INFO - Saved merged data with 24 records to singapore_weather_stations\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-28 20:58:52,609 - INFO - Saved merged data with 24 records to singapore_weather_stations\S71_Kent_Ridge_Road.csv
+2025-04-28 20:58:52,620 - INFO - Saved merged data with 24 records to singapore_weather_stations\S77_Alexandra_Road.csv
+2025-04-28 20:58:52,632 - INFO - Saved merged data with 24 records to singapore_weather_stations\S78_Poole_Road.csv
+2025-04-28 20:58:52,644 - INFO - Saved merged data with 24 records to singapore_weather_stations\S79_Somerset_Road.csv
+2025-04-28 20:58:52,656 - INFO - Saved merged data with 24 records to singapore_weather_stations\S81_Punggol_Central.csv
+2025-04-28 20:58:52,672 - INFO - Saved merged data with 24 records to singapore_weather_stations\S84_Simei_Avenue.csv
+2025-04-28 20:58:52,687 - INFO - Saved merged data with 24 records to singapore_weather_stations\S88_Toa_Payoh_North.csv
+2025-04-28 20:58:52,698 - INFO - Saved merged data with 24 records to singapore_weather_stations\S89_Tuas_Road.csv
+2025-04-28 20:58:52,711 - INFO - Saved merged data with 24 records to singapore_weather_stations\S900_Seletar_Aerospace_View.csv
+2025-04-28 20:58:52,722 - INFO - Saved merged data with 24 records to singapore_weather_stations\S90_Bukit_Timah_Road.csv
+2025-04-28 20:58:52,723 - INFO - Data collection complete!
+2025-04-28 21:09:16,324 - INFO - Collecting data for 2024_11: 2024-11-22 to 2024-11-22
+2025-04-28 21:09:16,325 - INFO - Creating date range from 2024-11-22 to 2024-11-22
+2025-04-28 21:09:16,326 - INFO - Generated 24 timestamps
+2025-04-28 21:11:54,660 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-28 21:11:54,663 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S106_Pulau_Ubin.csv
+2025-04-28 21:11:54,665 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S117_Banyan_Road.csv
+2025-04-28 21:11:54,667 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S107_East_Coast_Parkway.csv
+2025-04-28 21:11:54,670 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S104_Woodlands_Avenue_9.csv
+2025-04-28 21:11:54,673 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S115_Tuas_South_Avenue_3.csv
+2025-04-28 21:11:54,676 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S116_West_Coast_Highway.csv
+2025-04-28 21:11:54,679 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S60_Sentosa.csv
+2025-04-28 21:11:54,683 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S50_Clementi_Road.csv
+2025-04-28 21:11:54,686 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S44_Nanyang_Avenue.csv
+2025-04-28 21:11:54,690 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S43_Kim_Chuan_Road.csv
+2025-04-28 21:11:54,693 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S24_Upper_Changi_Road_North.csv
+2025-04-28 21:11:54,696 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S06_Paya_Lebar.csv
+2025-04-28 21:11:54,699 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S111_Scotts_Road.csv
+2025-04-28 21:11:54,702 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-28 21:11:54,705 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S218_Bukit_Batok_Street_34.csv
+2025-04-28 21:11:54,707 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S219_Yio_Chu_Kang_Road.csv
+2025-04-28 21:11:54,710 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-28 21:11:54,713 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S217_Bishan_Street_13.csv
+2025-04-28 21:11:54,716 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S214_Tanjong_Rhu.csv
+2025-04-28 21:11:54,718 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S215_Geylang_East_Central.csv
+2025-04-28 21:11:54,721 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S213_Coronation_Walk.csv
+2025-04-28 21:11:54,724 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S81_Punggol_Central.csv
+2025-04-28 21:11:54,726 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S40_Mandai_Lake_Road.csv
+2025-04-28 21:11:54,729 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S84_Simei_Avenue.csv
+2025-04-28 21:11:54,731 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S88_Toa_Payoh_North.csv
+2025-04-28 21:11:54,733 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S89_Tuas_Road.csv
+2025-04-28 21:11:54,736 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S221_Hougang_Avenue_1.csv
+2025-04-28 21:11:54,738 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S222_Henderson_Road.csv
+2025-04-28 21:11:54,741 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S08_Upper_Thomson_Road.csv
+2025-04-28 21:11:54,743 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S07_Lornie_Road.csv
+2025-04-28 21:11:54,746 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S220_Compassvale_Lane.csv
+2025-04-28 21:11:54,748 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S207_Bedok_Road.csv
+2025-04-28 21:11:54,750 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S208_Changi_East_Close.csv
+2025-04-28 21:11:54,753 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S203_Pasir_Panjang.csv
+2025-04-28 21:11:54,756 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S201_Clementi_Park.csv
+2025-04-28 21:11:54,758 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S90_Bukit_Timah_Road.csv
+2025-04-28 21:11:54,760 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S209_Yishun_Ring_Road.csv
+2025-04-28 21:11:54,763 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S210_Woodlands_Centre.csv
+2025-04-28 21:11:54,765 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S211_Kranji_Road.csv
+2025-04-28 21:11:54,767 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S119_Nicoll_Highway.csv
+2025-04-28 21:11:54,770 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S113_Marine_Parade_Road.csv
+2025-04-28 21:11:54,772 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S64_Bukit_Panjang_Road.csv
+2025-04-28 21:11:54,774 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S66_Kranji_Way.csv
+2025-04-28 21:11:54,776 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-28 21:11:54,778 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S29_Pasir_Ris_Drive_12.csv
+2025-04-28 21:11:54,779 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S229_Jurong_West_Street_42.csv
+2025-04-28 21:11:54,781 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S900_Seletar_Aerospace_View.csv
+2025-04-28 21:11:54,783 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S227_Woodlands_Drive_62.csv
+2025-04-28 21:11:54,786 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S228_Jurong_West_Street_73.csv
+2025-04-28 21:11:54,788 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S226_Malan_Road.csv
+2025-04-28 21:11:54,790 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S223_Margaret_Drive.csv
+2025-04-28 21:11:54,792 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S224_Airport_Boulevard.csv
+2025-04-28 21:11:54,794 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S71_Kent_Ridge_Road.csv
+2025-04-28 21:11:54,797 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S33_Jurong_Pier_Road.csv
+2025-04-28 21:11:54,799 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S77_Alexandra_Road.csv
+2025-04-28 21:11:54,801 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S35_Old_Toh_Tuck_Road.csv
+2025-04-28 21:11:54,804 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S79_Somerset_Road.csv
+2025-04-28 21:11:54,806 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S78_Poole_Road.csv
+2025-04-28 21:11:54,808 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S230_West_Coast_Road.csv
+2025-04-28 21:11:54,811 - INFO - Saved 24 records to singapore_weather_monthly\2024_11\S108_Marina_Gardens_Drive.csv
+2025-04-28 21:11:54,813 - INFO - Saved metadata for 61 stations to singapore_weather_monthly\2024_11\station_metadata.csv
+2025-04-28 21:11:54,814 - INFO - Saved complete metadata for 61 stations to singapore_weather_stations\all_station_metadata.csv
+2025-04-28 21:11:54,820 - INFO - Saved merged data with 24 records to singapore_weather_stations\S06_Paya_Lebar.csv
+2025-04-28 21:11:54,824 - INFO - Saved merged data with 24 records to singapore_weather_stations\S07_Lornie_Road.csv
+2025-04-28 21:11:54,828 - INFO - Saved merged data with 24 records to singapore_weather_stations\S08_Upper_Thomson_Road.csv
+2025-04-28 21:11:54,832 - INFO - Saved merged data with 24 records to singapore_weather_stations\S104_Woodlands_Avenue_9.csv
+2025-04-28 21:11:54,835 - INFO - Saved merged data with 24 records to singapore_weather_stations\S106_Pulau_Ubin.csv
+2025-04-28 21:11:54,839 - INFO - Saved merged data with 24 records to singapore_weather_stations\S107_East_Coast_Parkway.csv
+2025-04-28 21:11:54,843 - INFO - Saved merged data with 24 records to singapore_weather_stations\S108_Marina_Gardens_Drive.csv
+2025-04-28 21:11:54,847 - INFO - Saved merged data with 24 records to singapore_weather_stations\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-28 21:11:54,851 - INFO - Saved merged data with 24 records to singapore_weather_stations\S111_Scotts_Road.csv
+2025-04-28 21:11:54,854 - INFO - Saved merged data with 24 records to singapore_weather_stations\S113_Marine_Parade_Road.csv
+2025-04-28 21:11:54,858 - INFO - Saved merged data with 24 records to singapore_weather_stations\S115_Tuas_South_Avenue_3.csv
+2025-04-28 21:11:54,862 - INFO - Saved merged data with 24 records to singapore_weather_stations\S116_West_Coast_Highway.csv
+2025-04-28 21:11:54,865 - INFO - Saved merged data with 24 records to singapore_weather_stations\S117_Banyan_Road.csv
+2025-04-28 21:11:54,869 - INFO - Saved merged data with 24 records to singapore_weather_stations\S119_Nicoll_Highway.csv
+2025-04-28 21:11:54,873 - INFO - Saved merged data with 24 records to singapore_weather_stations\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-28 21:11:54,877 - INFO - Saved merged data with 24 records to singapore_weather_stations\S201_Clementi_Park.csv
+2025-04-28 21:11:54,881 - INFO - Saved merged data with 24 records to singapore_weather_stations\S203_Pasir_Panjang.csv
+2025-04-28 21:11:54,884 - INFO - Saved merged data with 24 records to singapore_weather_stations\S207_Bedok_Road.csv
+2025-04-28 21:11:54,888 - INFO - Saved merged data with 24 records to singapore_weather_stations\S208_Changi_East_Close.csv
+2025-04-28 21:11:54,891 - INFO - Saved merged data with 24 records to singapore_weather_stations\S209_Yishun_Ring_Road.csv
+2025-04-28 21:11:54,895 - INFO - Saved merged data with 24 records to singapore_weather_stations\S210_Woodlands_Centre.csv
+2025-04-28 21:11:54,898 - INFO - Saved merged data with 24 records to singapore_weather_stations\S211_Kranji_Road.csv
+2025-04-28 21:11:54,902 - INFO - Saved merged data with 24 records to singapore_weather_stations\S213_Coronation_Walk.csv
+2025-04-28 21:11:54,906 - INFO - Saved merged data with 24 records to singapore_weather_stations\S214_Tanjong_Rhu.csv
+2025-04-28 21:11:54,909 - INFO - Saved merged data with 24 records to singapore_weather_stations\S215_Geylang_East_Central.csv
+2025-04-28 21:11:54,913 - INFO - Saved merged data with 24 records to singapore_weather_stations\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-28 21:11:54,917 - INFO - Saved merged data with 24 records to singapore_weather_stations\S217_Bishan_Street_13.csv
+2025-04-28 21:11:54,922 - INFO - Saved merged data with 24 records to singapore_weather_stations\S218_Bukit_Batok_Street_34.csv
+2025-04-28 21:11:54,926 - INFO - Saved merged data with 24 records to singapore_weather_stations\S219_Yio_Chu_Kang_Road.csv
+2025-04-28 21:11:54,930 - INFO - Saved merged data with 24 records to singapore_weather_stations\S220_Compassvale_Lane.csv
+2025-04-28 21:11:54,934 - INFO - Saved merged data with 24 records to singapore_weather_stations\S221_Hougang_Avenue_1.csv
+2025-04-28 21:11:54,939 - INFO - Saved merged data with 24 records to singapore_weather_stations\S222_Henderson_Road.csv
+2025-04-28 21:11:54,943 - INFO - Saved merged data with 24 records to singapore_weather_stations\S223_Margaret_Drive.csv
+2025-04-28 21:11:54,947 - INFO - Saved merged data with 24 records to singapore_weather_stations\S224_Airport_Boulevard.csv
+2025-04-28 21:11:54,951 - INFO - Saved merged data with 24 records to singapore_weather_stations\S226_Malan_Road.csv
+2025-04-28 21:11:54,955 - INFO - Saved merged data with 24 records to singapore_weather_stations\S227_Woodlands_Drive_62.csv
+2025-04-28 21:11:54,959 - INFO - Saved merged data with 24 records to singapore_weather_stations\S228_Jurong_West_Street_73.csv
+2025-04-28 21:11:54,972 - INFO - Saved merged data with 24 records to singapore_weather_stations\S229_Jurong_West_Street_42.csv
+2025-04-28 21:11:54,976 - INFO - Saved merged data with 24 records to singapore_weather_stations\S230_West_Coast_Road.csv
+2025-04-28 21:11:54,981 - INFO - Saved merged data with 24 records to singapore_weather_stations\S24_Upper_Changi_Road_North.csv
+2025-04-28 21:11:54,985 - INFO - Saved merged data with 24 records to singapore_weather_stations\S29_Pasir_Ris_Drive_12.csv
+2025-04-28 21:11:54,989 - INFO - Saved merged data with 24 records to singapore_weather_stations\S33_Jurong_Pier_Road.csv
+2025-04-28 21:11:54,993 - INFO - Saved merged data with 24 records to singapore_weather_stations\S35_Old_Toh_Tuck_Road.csv
+2025-04-28 21:11:54,997 - INFO - Saved merged data with 24 records to singapore_weather_stations\S40_Mandai_Lake_Road.csv
+2025-04-28 21:11:55,001 - INFO - Saved merged data with 24 records to singapore_weather_stations\S43_Kim_Chuan_Road.csv
+2025-04-28 21:11:55,005 - INFO - Saved merged data with 24 records to singapore_weather_stations\S44_Nanyang_Avenue.csv
+2025-04-28 21:11:55,017 - INFO - Saved merged data with 24 records to singapore_weather_stations\S50_Clementi_Road.csv
+2025-04-28 21:11:55,022 - INFO - Saved merged data with 24 records to singapore_weather_stations\S60_Sentosa.csv
+2025-04-28 21:11:55,027 - INFO - Saved merged data with 24 records to singapore_weather_stations\S64_Bukit_Panjang_Road.csv
+2025-04-28 21:11:55,030 - INFO - Saved merged data with 24 records to singapore_weather_stations\S66_Kranji_Way.csv
+2025-04-28 21:11:55,041 - INFO - Saved merged data with 24 records to singapore_weather_stations\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-28 21:11:55,045 - INFO - Saved merged data with 24 records to singapore_weather_stations\S71_Kent_Ridge_Road.csv
+2025-04-28 21:11:55,049 - INFO - Saved merged data with 24 records to singapore_weather_stations\S77_Alexandra_Road.csv
+2025-04-28 21:11:55,053 - INFO - Saved merged data with 24 records to singapore_weather_stations\S78_Poole_Road.csv
+2025-04-28 21:11:55,058 - INFO - Saved merged data with 24 records to singapore_weather_stations\S79_Somerset_Road.csv
+2025-04-28 21:11:55,062 - INFO - Saved merged data with 24 records to singapore_weather_stations\S81_Punggol_Central.csv
+2025-04-28 21:11:55,066 - INFO - Saved merged data with 24 records to singapore_weather_stations\S84_Simei_Avenue.csv
+2025-04-28 21:11:55,071 - INFO - Saved merged data with 24 records to singapore_weather_stations\S88_Toa_Payoh_North.csv
+2025-04-28 21:11:55,075 - INFO - Saved merged data with 24 records to singapore_weather_stations\S89_Tuas_Road.csv
+2025-04-28 21:11:55,079 - INFO - Saved merged data with 24 records to singapore_weather_stations\S900_Seletar_Aerospace_View.csv
+2025-04-28 21:11:55,084 - INFO - Saved merged data with 24 records to singapore_weather_stations\S90_Bukit_Timah_Road.csv
+2025-04-28 21:11:55,085 - INFO - Data collection complete!
+2025-04-28 21:16:58,134 - INFO - Collecting data for 2024_11: 2024-11-22 to 2024-11-30
+2025-04-28 21:16:58,134 - INFO - Creating date range from 2024-11-22 to 2024-11-30
+2025-04-28 21:16:58,136 - INFO - Generated 216 timestamps
+2025-04-28 21:40:08,727 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-28 21:40:08,730 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S106_Pulau_Ubin.csv
+2025-04-28 21:40:08,733 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S117_Banyan_Road.csv
+2025-04-28 21:40:08,735 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S107_East_Coast_Parkway.csv
+2025-04-28 21:40:08,737 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S104_Woodlands_Avenue_9.csv
+2025-04-28 21:40:08,741 - INFO - Saved 210 records to singapore_weather_monthly\2024_11\S115_Tuas_South_Avenue_3.csv
+2025-04-28 21:40:08,744 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S116_West_Coast_Highway.csv
+2025-04-28 21:40:08,746 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S60_Sentosa.csv
+2025-04-28 21:40:08,750 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S50_Clementi_Road.csv
+2025-04-28 21:40:08,753 - INFO - Saved 199 records to singapore_weather_monthly\2024_11\S44_Nanyang_Avenue.csv
+2025-04-28 21:40:08,756 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S43_Kim_Chuan_Road.csv
+2025-04-28 21:40:08,759 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S24_Upper_Changi_Road_North.csv
+2025-04-28 21:40:08,762 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S06_Paya_Lebar.csv
+2025-04-28 21:40:08,765 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S111_Scotts_Road.csv
+2025-04-28 21:40:08,768 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-28 21:40:08,770 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S218_Bukit_Batok_Street_34.csv
+2025-04-28 21:40:08,772 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S219_Yio_Chu_Kang_Road.csv
+2025-04-28 21:40:08,775 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-28 21:40:08,778 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S217_Bishan_Street_13.csv
+2025-04-28 21:40:08,781 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S214_Tanjong_Rhu.csv
+2025-04-28 21:40:08,784 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S215_Geylang_East_Central.csv
+2025-04-28 21:40:08,786 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S213_Coronation_Walk.csv
+2025-04-28 21:40:08,788 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S81_Punggol_Central.csv
+2025-04-28 21:40:08,791 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S40_Mandai_Lake_Road.csv
+2025-04-28 21:40:08,793 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S84_Simei_Avenue.csv
+2025-04-28 21:40:08,795 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S88_Toa_Payoh_North.csv
+2025-04-28 21:40:08,798 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S89_Tuas_Road.csv
+2025-04-28 21:40:08,801 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S221_Hougang_Avenue_1.csv
+2025-04-28 21:40:08,803 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S222_Henderson_Road.csv
+2025-04-28 21:40:08,806 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S08_Upper_Thomson_Road.csv
+2025-04-28 21:40:08,809 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S07_Lornie_Road.csv
+2025-04-28 21:40:08,812 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S220_Compassvale_Lane.csv
+2025-04-28 21:40:08,814 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S207_Bedok_Road.csv
+2025-04-28 21:40:08,817 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S208_Changi_East_Close.csv
+2025-04-28 21:40:08,818 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S203_Pasir_Panjang.csv
+2025-04-28 21:40:08,820 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S201_Clementi_Park.csv
+2025-04-28 21:40:08,822 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S90_Bukit_Timah_Road.csv
+2025-04-28 21:40:08,825 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S209_Yishun_Ring_Road.csv
+2025-04-28 21:40:08,827 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S210_Woodlands_Centre.csv
+2025-04-28 21:40:08,830 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S211_Kranji_Road.csv
+2025-04-28 21:40:08,832 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S119_Nicoll_Highway.csv
+2025-04-28 21:40:08,834 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S113_Marine_Parade_Road.csv
+2025-04-28 21:40:08,836 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S64_Bukit_Panjang_Road.csv
+2025-04-28 21:40:08,838 - INFO - Saved 170 records to singapore_weather_monthly\2024_11\S66_Kranji_Way.csv
+2025-04-28 21:40:08,840 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-28 21:40:08,842 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S29_Pasir_Ris_Drive_12.csv
+2025-04-28 21:40:08,844 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S229_Jurong_West_Street_42.csv
+2025-04-28 21:40:08,846 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S900_Seletar_Aerospace_View.csv
+2025-04-28 21:40:08,847 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S227_Woodlands_Drive_62.csv
+2025-04-28 21:40:08,849 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S228_Jurong_West_Street_73.csv
+2025-04-28 21:40:08,851 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S226_Malan_Road.csv
+2025-04-28 21:40:08,852 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S223_Margaret_Drive.csv
+2025-04-28 21:40:08,854 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S224_Airport_Boulevard.csv
+2025-04-28 21:40:08,857 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S71_Kent_Ridge_Road.csv
+2025-04-28 21:40:08,858 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S33_Jurong_Pier_Road.csv
+2025-04-28 21:40:08,860 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S77_Alexandra_Road.csv
+2025-04-28 21:40:08,862 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S35_Old_Toh_Tuck_Road.csv
+2025-04-28 21:40:08,864 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S79_Somerset_Road.csv
+2025-04-28 21:40:08,867 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S78_Poole_Road.csv
+2025-04-28 21:40:08,868 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S230_West_Coast_Road.csv
+2025-04-28 21:40:08,870 - INFO - Saved 216 records to singapore_weather_monthly\2024_11\S108_Marina_Gardens_Drive.csv
+2025-04-28 21:40:08,871 - INFO - Saved metadata for 61 stations to singapore_weather_monthly\2024_11\station_metadata.csv
+2025-04-28 21:40:08,874 - INFO - Created directory: singapore_weather_monthly\2024_12
+2025-04-28 21:40:08,874 - INFO - Collecting data for 2024_12: 2024-12-01 to 2024-12-31
+2025-04-28 21:40:08,874 - INFO - Creating date range from 2024-12-01 to 2024-12-31
+2025-04-28 21:40:08,876 - INFO - Generated 744 timestamps
+2025-04-28 22:56:00,577 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-28 22:56:00,583 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S106_Pulau_Ubin.csv
+2025-04-28 22:56:00,588 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S117_Banyan_Road.csv
+2025-04-28 22:56:00,595 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S107_East_Coast_Parkway.csv
+2025-04-28 22:56:00,601 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S104_Woodlands_Avenue_9.csv
+2025-04-28 22:56:00,606 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S115_Tuas_South_Avenue_3.csv
+2025-04-28 22:56:00,611 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S116_West_Coast_Highway.csv
+2025-04-28 22:56:00,616 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S60_Sentosa.csv
+2025-04-28 22:56:00,621 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S50_Clementi_Road.csv
+2025-04-28 22:56:00,627 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S43_Kim_Chuan_Road.csv
+2025-04-28 22:56:00,630 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S24_Upper_Changi_Road_North.csv
+2025-04-28 22:56:00,636 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S06_Paya_Lebar.csv
+2025-04-28 22:56:00,640 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S111_Scotts_Road.csv
+2025-04-28 22:56:00,644 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-28 22:56:00,647 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S218_Bukit_Batok_Street_34.csv
+2025-04-28 22:56:00,651 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S219_Yio_Chu_Kang_Road.csv
+2025-04-28 22:56:00,655 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-28 22:56:00,658 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S217_Bishan_Street_13.csv
+2025-04-28 22:56:00,662 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S214_Tanjong_Rhu.csv
+2025-04-28 22:56:00,666 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S215_Geylang_East_Central.csv
+2025-04-28 22:56:00,669 - INFO - Saved 701 records to singapore_weather_monthly\2024_12\S213_Coronation_Walk.csv
+2025-04-28 22:56:00,672 - INFO - Saved 743 records to singapore_weather_monthly\2024_12\S81_Punggol_Central.csv
+2025-04-28 22:56:00,676 - INFO - Saved 743 records to singapore_weather_monthly\2024_12\S40_Mandai_Lake_Road.csv
+2025-04-28 22:56:00,679 - INFO - Saved 623 records to singapore_weather_monthly\2024_12\S84_Simei_Avenue.csv
+2025-04-28 22:56:00,683 - INFO - Saved 743 records to singapore_weather_monthly\2024_12\S88_Toa_Payoh_North.csv
+2025-04-28 22:56:00,686 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S89_Tuas_Road.csv
+2025-04-28 22:56:00,689 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S221_Hougang_Avenue_1.csv
+2025-04-28 22:56:00,692 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S222_Henderson_Road.csv
+2025-04-28 22:56:00,695 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S08_Upper_Thomson_Road.csv
+2025-04-28 22:56:00,698 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S07_Lornie_Road.csv
+2025-04-28 22:56:00,701 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S220_Compassvale_Lane.csv
+2025-04-28 22:56:00,704 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S207_Bedok_Road.csv
+2025-04-28 22:56:00,707 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S208_Changi_East_Close.csv
+2025-04-28 22:56:00,711 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S203_Pasir_Panjang.csv
+2025-04-28 22:56:00,714 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S201_Clementi_Park.csv
+2025-04-28 22:56:00,718 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S90_Bukit_Timah_Road.csv
+2025-04-28 22:56:00,721 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S209_Yishun_Ring_Road.csv
+2025-04-28 22:56:00,725 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S210_Woodlands_Centre.csv
+2025-04-28 22:56:00,728 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S211_Kranji_Road.csv
+2025-04-28 22:56:00,731 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S119_Nicoll_Highway.csv
+2025-04-28 22:56:00,734 - INFO - Saved 681 records to singapore_weather_monthly\2024_12\S113_Marine_Parade_Road.csv
+2025-04-28 22:56:00,737 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S64_Bukit_Panjang_Road.csv
+2025-04-28 22:56:00,741 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S66_Kranji_Way.csv
+2025-04-28 22:56:00,744 - INFO - Saved 546 records to singapore_weather_monthly\2024_12\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-28 22:56:00,749 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S29_Pasir_Ris_Drive_12.csv
+2025-04-28 22:56:00,753 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S229_Jurong_West_Street_42.csv
+2025-04-28 22:56:00,756 - INFO - Saved 730 records to singapore_weather_monthly\2024_12\S900_Seletar_Aerospace_View.csv
+2025-04-28 22:56:00,759 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S227_Woodlands_Drive_62.csv
+2025-04-28 22:56:00,762 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S228_Jurong_West_Street_73.csv
+2025-04-28 22:56:00,765 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S226_Malan_Road.csv
+2025-04-28 22:56:00,768 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S223_Margaret_Drive.csv
+2025-04-28 22:56:00,772 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S224_Airport_Boulevard.csv
+2025-04-28 22:56:00,775 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S71_Kent_Ridge_Road.csv
+2025-04-28 22:56:00,779 - INFO - Saved 736 records to singapore_weather_monthly\2024_12\S33_Jurong_Pier_Road.csv
+2025-04-28 22:56:00,782 - INFO - Saved 673 records to singapore_weather_monthly\2024_12\S77_Alexandra_Road.csv
+2025-04-28 22:56:00,785 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S35_Old_Toh_Tuck_Road.csv
+2025-04-28 22:56:00,789 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S79_Somerset_Road.csv
+2025-04-28 22:56:00,792 - INFO - Saved 743 records to singapore_weather_monthly\2024_12\S78_Poole_Road.csv
+2025-04-28 22:56:00,794 - INFO - Saved 744 records to singapore_weather_monthly\2024_12\S230_West_Coast_Road.csv
+2025-04-28 22:56:00,798 - INFO - Saved 743 records to singapore_weather_monthly\2024_12\S108_Marina_Gardens_Drive.csv
+2025-04-28 22:56:00,802 - INFO - Saved 663 records to singapore_weather_monthly\2024_12\S123_Towner_Road.csv
+2025-04-28 22:56:00,805 - INFO - Saved 519 records to singapore_weather_monthly\2024_12\S92_South_Buona_Vista_Road.csv
+2025-04-28 22:56:00,808 - INFO - Saved 519 records to singapore_weather_monthly\2024_12\S94_Pasir_Ris_Street_51.csv
+2025-04-28 22:56:00,811 - INFO - Saved 518 records to singapore_weather_monthly\2024_12\S112_Lim_Chu_Kang_Road.csv
+2025-04-28 22:56:00,812 - INFO - Saved metadata for 64 stations to singapore_weather_monthly\2024_12\station_metadata.csv
+2025-04-28 22:56:00,823 - INFO - Saved complete metadata for 65 stations to singapore_weather_stations\all_station_metadata.csv
+2025-04-28 22:56:00,842 - INFO - Saved merged data with 960 records to singapore_weather_stations\S06_Paya_Lebar.csv
+2025-04-28 22:56:00,856 - INFO - Saved merged data with 960 records to singapore_weather_stations\S07_Lornie_Road.csv
+2025-04-28 22:56:00,868 - INFO - Saved merged data with 960 records to singapore_weather_stations\S08_Upper_Thomson_Road.csv
+2025-04-28 22:56:00,889 - INFO - Saved merged data with 960 records to singapore_weather_stations\S104_Woodlands_Avenue_9.csv
+2025-04-28 22:56:00,909 - INFO - Saved merged data with 960 records to singapore_weather_stations\S106_Pulau_Ubin.csv
+2025-04-28 22:56:00,930 - INFO - Saved merged data with 960 records to singapore_weather_stations\S107_East_Coast_Parkway.csv
+2025-04-28 22:56:00,949 - INFO - Saved merged data with 959 records to singapore_weather_stations\S108_Marina_Gardens_Drive.csv
+2025-04-28 22:56:00,970 - INFO - Saved merged data with 960 records to singapore_weather_stations\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-28 22:56:00,991 - INFO - Saved merged data with 960 records to singapore_weather_stations\S111_Scotts_Road.csv
+2025-04-28 22:56:01,010 - INFO - Saved merged data with 897 records to singapore_weather_stations\S113_Marine_Parade_Road.csv
+2025-04-28 22:56:01,029 - INFO - Saved merged data with 954 records to singapore_weather_stations\S115_Tuas_South_Avenue_3.csv
+2025-04-28 22:56:01,050 - INFO - Saved merged data with 960 records to singapore_weather_stations\S116_West_Coast_Highway.csv
+2025-04-28 22:56:01,071 - INFO - Saved merged data with 960 records to singapore_weather_stations\S117_Banyan_Road.csv
+2025-04-28 22:56:01,090 - INFO - Saved merged data with 960 records to singapore_weather_stations\S119_Nicoll_Highway.csv
+2025-04-28 22:56:01,113 - INFO - Saved merged data with 960 records to singapore_weather_stations\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-28 22:56:01,144 - INFO - Saved merged data with 960 records to singapore_weather_stations\S201_Clementi_Park.csv
+2025-04-28 22:56:01,172 - INFO - Saved merged data with 960 records to singapore_weather_stations\S203_Pasir_Panjang.csv
+2025-04-28 22:56:01,204 - INFO - Saved merged data with 960 records to singapore_weather_stations\S207_Bedok_Road.csv
+2025-04-28 22:56:01,235 - INFO - Saved merged data with 960 records to singapore_weather_stations\S208_Changi_East_Close.csv
+2025-04-28 22:56:01,262 - INFO - Saved merged data with 960 records to singapore_weather_stations\S209_Yishun_Ring_Road.csv
+2025-04-28 22:56:01,287 - INFO - Saved merged data with 960 records to singapore_weather_stations\S210_Woodlands_Centre.csv
+2025-04-28 22:56:01,312 - INFO - Saved merged data with 960 records to singapore_weather_stations\S211_Kranji_Road.csv
+2025-04-28 22:56:01,337 - INFO - Saved merged data with 917 records to singapore_weather_stations\S213_Coronation_Walk.csv
+2025-04-28 22:56:01,367 - INFO - Saved merged data with 960 records to singapore_weather_stations\S214_Tanjong_Rhu.csv
+2025-04-28 22:56:01,393 - INFO - Saved merged data with 960 records to singapore_weather_stations\S215_Geylang_East_Central.csv
+2025-04-28 22:56:01,417 - INFO - Saved merged data with 960 records to singapore_weather_stations\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-28 22:56:01,440 - INFO - Saved merged data with 960 records to singapore_weather_stations\S217_Bishan_Street_13.csv
+2025-04-28 22:56:01,465 - INFO - Saved merged data with 960 records to singapore_weather_stations\S218_Bukit_Batok_Street_34.csv
+2025-04-28 22:56:01,489 - INFO - Saved merged data with 960 records to singapore_weather_stations\S219_Yio_Chu_Kang_Road.csv
+2025-04-28 22:56:01,514 - INFO - Saved merged data with 960 records to singapore_weather_stations\S220_Compassvale_Lane.csv
+2025-04-28 22:56:01,536 - INFO - Saved merged data with 960 records to singapore_weather_stations\S221_Hougang_Avenue_1.csv
+2025-04-28 22:56:01,561 - INFO - Saved merged data with 960 records to singapore_weather_stations\S222_Henderson_Road.csv
+2025-04-28 22:56:01,586 - INFO - Saved merged data with 960 records to singapore_weather_stations\S223_Margaret_Drive.csv
+2025-04-28 22:56:01,608 - INFO - Saved merged data with 960 records to singapore_weather_stations\S224_Airport_Boulevard.csv
+2025-04-28 22:56:01,635 - INFO - Saved merged data with 960 records to singapore_weather_stations\S226_Malan_Road.csv
+2025-04-28 22:56:01,660 - INFO - Saved merged data with 960 records to singapore_weather_stations\S227_Woodlands_Drive_62.csv
+2025-04-28 22:56:01,692 - INFO - Saved merged data with 960 records to singapore_weather_stations\S228_Jurong_West_Street_73.csv
+2025-04-28 22:56:01,716 - INFO - Saved merged data with 960 records to singapore_weather_stations\S229_Jurong_West_Street_42.csv
+2025-04-28 22:56:01,745 - INFO - Saved merged data with 960 records to singapore_weather_stations\S230_West_Coast_Road.csv
+2025-04-28 22:56:01,768 - INFO - Saved merged data with 960 records to singapore_weather_stations\S24_Upper_Changi_Road_North.csv
+2025-04-28 22:56:01,788 - INFO - Saved merged data with 960 records to singapore_weather_stations\S29_Pasir_Ris_Drive_12.csv
+2025-04-28 22:56:01,812 - INFO - Saved merged data with 952 records to singapore_weather_stations\S33_Jurong_Pier_Road.csv
+2025-04-28 22:56:01,828 - INFO - Saved merged data with 960 records to singapore_weather_stations\S35_Old_Toh_Tuck_Road.csv
+2025-04-28 22:56:01,847 - INFO - Saved merged data with 959 records to singapore_weather_stations\S40_Mandai_Lake_Road.csv
+2025-04-28 22:56:01,870 - INFO - Saved merged data with 960 records to singapore_weather_stations\S43_Kim_Chuan_Road.csv
+2025-04-28 22:56:01,875 - INFO - Saved merged data with 199 records to singapore_weather_stations\S44_Nanyang_Avenue.csv
+2025-04-28 22:56:01,897 - INFO - Saved merged data with 960 records to singapore_weather_stations\S50_Clementi_Road.csv
+2025-04-28 22:56:01,921 - INFO - Saved merged data with 960 records to singapore_weather_stations\S60_Sentosa.csv
+2025-04-28 22:56:01,955 - INFO - Saved merged data with 960 records to singapore_weather_stations\S64_Bukit_Panjang_Road.csv
+2025-04-28 22:56:01,984 - INFO - Saved merged data with 914 records to singapore_weather_stations\S66_Kranji_Way.csv
+2025-04-28 22:56:02,005 - INFO - Saved merged data with 762 records to singapore_weather_stations\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-28 22:56:02,022 - INFO - Saved merged data with 960 records to singapore_weather_stations\S71_Kent_Ridge_Road.csv
+2025-04-28 22:56:02,039 - INFO - Saved merged data with 889 records to singapore_weather_stations\S77_Alexandra_Road.csv
+2025-04-28 22:56:02,057 - INFO - Saved merged data with 959 records to singapore_weather_stations\S78_Poole_Road.csv
+2025-04-28 22:56:02,077 - INFO - Saved merged data with 960 records to singapore_weather_stations\S79_Somerset_Road.csv
+2025-04-28 22:56:02,098 - INFO - Saved merged data with 959 records to singapore_weather_stations\S81_Punggol_Central.csv
+2025-04-28 22:56:02,116 - INFO - Saved merged data with 839 records to singapore_weather_stations\S84_Simei_Avenue.csv
+2025-04-28 22:56:02,145 - INFO - Saved merged data with 959 records to singapore_weather_stations\S88_Toa_Payoh_North.csv
+2025-04-28 22:56:02,164 - INFO - Saved merged data with 960 records to singapore_weather_stations\S89_Tuas_Road.csv
+2025-04-28 22:56:02,194 - INFO - Saved merged data with 946 records to singapore_weather_stations\S900_Seletar_Aerospace_View.csv
+2025-04-28 22:56:02,221 - INFO - Saved merged data with 960 records to singapore_weather_stations\S90_Bukit_Timah_Road.csv
+2025-04-28 22:56:02,241 - INFO - Saved merged data with 518 records to singapore_weather_stations\S112_Lim_Chu_Kang_Road.csv
+2025-04-28 22:56:02,265 - INFO - Saved merged data with 663 records to singapore_weather_stations\S123_Towner_Road.csv
+2025-04-28 22:56:02,278 - INFO - Saved merged data with 519 records to singapore_weather_stations\S92_South_Buona_Vista_Road.csv
+2025-04-28 22:56:02,294 - INFO - Saved merged data with 519 records to singapore_weather_stations\S94_Pasir_Ris_Street_51.csv
+2025-04-28 22:56:02,295 - INFO - Data collection complete!
+2025-04-28 23:27:56,444 - INFO - Created directory: singapore_weather_monthly\2024_05
+2025-04-28 23:27:56,445 - INFO - Collecting data for 2024_05: 2024-05-01 to 2024-05-31
+2025-04-28 23:27:56,445 - INFO - Creating date range from 2024-05-01 to 2024-05-31
+2025-04-28 23:27:56,447 - INFO - Generated 744 timestamps
+2025-04-28 23:53:56,041 - ERROR - Exception fetching rainfall data: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-29 00:37:37,653 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-29 00:37:37,669 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S117_Banyan_Road.csv
+2025-04-29 00:37:37,696 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S50_Clementi_Road.csv
+2025-04-29 00:37:37,711 - INFO - Saved 734 records to singapore_weather_monthly\2024_05\S107_East_Coast_Parkway.csv
+2025-04-29 00:37:37,722 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S43_Kim_Chuan_Road.csv
+2025-04-29 00:37:37,736 - INFO - Saved 695 records to singapore_weather_monthly\2024_05\S44_Nanyang_Avenue.csv
+2025-04-29 00:37:37,751 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-29 00:37:37,762 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S111_Scotts_Road.csv
+2025-04-29 00:37:37,775 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S60_Sentosa.csv
+2025-04-29 00:37:37,786 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S115_Tuas_South_Avenue_3.csv
+2025-04-29 00:37:37,797 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S24_Upper_Changi_Road_North.csv
+2025-04-29 00:37:37,806 - INFO - Saved 401 records to singapore_weather_monthly\2024_05\S116_West_Coast_Highway.csv
+2025-04-29 00:37:37,817 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S104_Woodlands_Avenue_9.csv
+2025-04-29 00:37:37,824 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S77_Alexandra_Road.csv
+2025-04-29 00:37:37,831 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S64_Bukit_Panjang_Road.csv
+2025-04-29 00:37:37,838 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S90_Bukit_Timah_Road.csv
+2025-04-29 00:37:37,853 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S114_Choa_Chu_Kang_Avenue_4.csv
+2025-04-29 00:37:37,862 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S215_GEYLANG_EAST_CENTRAL.csv
+2025-04-29 00:37:37,866 - INFO - Saved 40 records to singapore_weather_monthly\2024_05\S120_Holland_Road.csv
+2025-04-29 00:37:37,872 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S33_Jurong_Pier_Road.csv
+2025-04-29 00:37:37,879 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S71_Kent_Ridge_Road.csv
+2025-04-29 00:37:37,887 - INFO - Saved 726 records to singapore_weather_monthly\2024_05\S66_Kranji_Way.csv
+2025-04-29 00:37:37,895 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S112_Lim_Chu_Kang_Road.csv
+2025-04-29 00:37:37,902 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S07_Lornie_Road.csv
+2025-04-29 00:37:37,910 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S40_Mandai_Lake_Road.csv
+2025-04-29 00:37:37,916 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S113_Marine_Parade_Road.csv
+2025-04-29 00:37:37,925 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S119_Nicoll_Highway.csv
+2025-04-29 00:37:37,932 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S35_Old_Toh_Tuck_Road.csv
+2025-04-29 00:37:37,940 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S94_Pasir_Ris_Street_51.csv
+2025-04-29 00:37:37,946 - INFO - Saved 724 records to singapore_weather_monthly\2024_05\S78_Poole_Road.csv
+2025-04-29 00:37:37,953 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S81_Punggol_Central.csv
+2025-04-29 00:37:37,960 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S201_S201.csv
+2025-04-29 00:37:37,975 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S203_S203.csv
+2025-04-29 00:37:37,983 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S207_S207.csv
+2025-04-29 00:37:37,991 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S208_S208.csv
+2025-04-29 00:37:37,998 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S209_S209.csv
+2025-04-29 00:37:38,005 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S210_S210.csv
+2025-04-29 00:37:38,013 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S211_S211.csv
+2025-04-29 00:37:38,020 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S212_S212.csv
+2025-04-29 00:37:38,027 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S213_S213.csv
+2025-04-29 00:37:38,035 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S214_S214.csv
+2025-04-29 00:37:38,060 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S216_S216.csv
+2025-04-29 00:37:38,069 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S217_S217.csv
+2025-04-29 00:37:38,077 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S218_S218.csv
+2025-04-29 00:37:38,085 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S219_S219.csv
+2025-04-29 00:37:38,092 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S220_S220.csv
+2025-04-29 00:37:38,098 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S221_S221.csv
+2025-04-29 00:37:38,105 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S222_S222.csv
+2025-04-29 00:37:38,113 - INFO - Saved 706 records to singapore_weather_monthly\2024_05\S223_S223.csv
+2025-04-29 00:37:38,121 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S224_S224.csv
+2025-04-29 00:37:38,138 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S226_S226.csv
+2025-04-29 00:37:38,146 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S227_S227.csv
+2025-04-29 00:37:38,154 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S228_S228.csv
+2025-04-29 00:37:38,161 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S229_S229.csv
+2025-04-29 00:37:38,168 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S230_S230.csv
+2025-04-29 00:37:38,175 - INFO - Saved 718 records to singapore_weather_monthly\2024_05\S900_Seletar_Aerospace_View.csv
+2025-04-29 00:37:38,193 - INFO - Saved 724 records to singapore_weather_monthly\2024_05\S84_Simei_Avenue.csv
+2025-04-29 00:37:38,202 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S79_Somerset_Road.csv
+2025-04-29 00:37:38,210 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S88_Toa_Payoh_North.csv
+2025-04-29 00:37:38,216 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S123_Towner_Road.csv
+2025-04-29 00:37:38,224 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S89_Tuas_Road.csv
+2025-04-29 00:37:38,231 - INFO - Saved 744 records to singapore_weather_monthly\2024_05\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-29 00:37:38,240 - INFO - Saved 727 records to singapore_weather_monthly\2024_05\S08_Upper_Thomson_Road.csv
+2025-04-29 00:37:38,256 - INFO - Saved 564 records to singapore_weather_monthly\2024_05\S108_Marina_Gardens_Drive.csv
+2025-04-29 00:37:38,260 - INFO - Saved metadata for 64 stations to singapore_weather_monthly\2024_05\station_metadata.csv
+2025-04-29 00:37:38,283 - INFO - Created directory: singapore_weather_monthly\2024_06
+2025-04-29 00:37:38,283 - INFO - Collecting data for 2024_06: 2024-06-01 to 2024-06-30
+2025-04-29 00:37:38,284 - INFO - Creating date range from 2024-06-01 to 2024-06-30
+2025-04-29 00:37:38,288 - INFO - Generated 720 timestamps
+2025-04-29 01:52:16,251 - ERROR - Exception fetching temperature data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-04-29 01:59:47,019 - INFO - Saved 625 records to singapore_weather_monthly\2024_06\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-29 01:59:47,025 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S117_Banyan_Road.csv
+2025-04-29 01:59:47,029 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S50_Clementi_Road.csv
+2025-04-29 01:59:47,034 - INFO - Saved 709 records to singapore_weather_monthly\2024_06\S107_East_Coast_Parkway.csv
+2025-04-29 01:59:47,038 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S43_Kim_Chuan_Road.csv
+2025-04-29 01:59:47,041 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S108_Marina_Gardens_Drive.csv
+2025-04-29 01:59:47,045 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S44_Nanyang_Avenue.csv
+2025-04-29 01:59:47,049 - INFO - Saved 484 records to singapore_weather_monthly\2024_06\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-29 01:59:47,056 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S111_Scotts_Road.csv
+2025-04-29 01:59:47,063 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S60_Sentosa.csv
+2025-04-29 01:59:47,069 - INFO - Saved 451 records to singapore_weather_monthly\2024_06\S115_Tuas_South_Avenue_3.csv
+2025-04-29 01:59:47,076 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S24_Upper_Changi_Road_North.csv
+2025-04-29 01:59:47,082 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S116_West_Coast_Highway.csv
+2025-04-29 01:59:47,086 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S104_Woodlands_Avenue_9.csv
+2025-04-29 01:59:47,090 - INFO - Saved 718 records to singapore_weather_monthly\2024_06\S77_Alexandra_Road.csv
+2025-04-29 01:59:47,093 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S64_Bukit_Panjang_Road.csv
+2025-04-29 01:59:47,098 - INFO - Saved 709 records to singapore_weather_monthly\2024_06\S90_Bukit_Timah_Road.csv
+2025-04-29 01:59:47,101 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S114_Choa_Chu_Kang_Avenue_4.csv
+2025-04-29 01:59:47,104 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S215_GEYLANG_EAST_CENTRAL.csv
+2025-04-29 01:59:47,107 - INFO - Saved 718 records to singapore_weather_monthly\2024_06\S33_Jurong_Pier_Road.csv
+2025-04-29 01:59:47,111 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S71_Kent_Ridge_Road.csv
+2025-04-29 01:59:47,114 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S66_Kranji_Way.csv
+2025-04-29 01:59:47,117 - INFO - Saved 690 records to singapore_weather_monthly\2024_06\S112_Lim_Chu_Kang_Road.csv
+2025-04-29 01:59:47,120 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S07_Lornie_Road.csv
+2025-04-29 01:59:47,123 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S40_Mandai_Lake_Road.csv
+2025-04-29 01:59:47,126 - INFO - Saved 718 records to singapore_weather_monthly\2024_06\S113_Marine_Parade_Road.csv
+2025-04-29 01:59:47,130 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S119_Nicoll_Highway.csv
+2025-04-29 01:59:47,133 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S35_Old_Toh_Tuck_Road.csv
+2025-04-29 01:59:47,136 - INFO - Saved 719 records to singapore_weather_monthly\2024_06\S94_Pasir_Ris_Street_51.csv
+2025-04-29 01:59:47,140 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S78_Poole_Road.csv
+2025-04-29 01:59:47,145 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S81_Punggol_Central.csv
+2025-04-29 01:59:47,149 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S201_S201.csv
+2025-04-29 01:59:47,152 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S203_S203.csv
+2025-04-29 01:59:47,156 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S207_S207.csv
+2025-04-29 01:59:47,159 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S208_S208.csv
+2025-04-29 01:59:47,162 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S209_S209.csv
+2025-04-29 01:59:47,164 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S210_S210.csv
+2025-04-29 01:59:47,167 - INFO - Saved 624 records to singapore_weather_monthly\2024_06\S211_S211.csv
+2025-04-29 01:59:47,172 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S212_S212.csv
+2025-04-29 01:59:47,174 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S213_S213.csv
+2025-04-29 01:59:47,179 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S214_S214.csv
+2025-04-29 01:59:47,182 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S216_S216.csv
+2025-04-29 01:59:47,185 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S217_S217.csv
+2025-04-29 01:59:47,188 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S218_S218.csv
+2025-04-29 01:59:47,191 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S219_S219.csv
+2025-04-29 01:59:47,194 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S220_S220.csv
+2025-04-29 01:59:47,197 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S221_S221.csv
+2025-04-29 01:59:47,201 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S222_S222.csv
+2025-04-29 01:59:47,206 - INFO - Saved 602 records to singapore_weather_monthly\2024_06\S223_S223.csv
+2025-04-29 01:59:47,210 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S224_S224.csv
+2025-04-29 01:59:47,215 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S226_S226.csv
+2025-04-29 01:59:47,218 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S227_S227.csv
+2025-04-29 01:59:47,222 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S228_S228.csv
+2025-04-29 01:59:47,225 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S229_S229.csv
+2025-04-29 01:59:47,228 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S230_S230.csv
+2025-04-29 01:59:47,232 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S900_Seletar_Aerospace_View.csv
+2025-04-29 01:59:47,236 - INFO - Saved 718 records to singapore_weather_monthly\2024_06\S84_Simei_Avenue.csv
+2025-04-29 01:59:47,240 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S79_Somerset_Road.csv
+2025-04-29 01:59:47,245 - INFO - Saved 718 records to singapore_weather_monthly\2024_06\S88_Toa_Payoh_North.csv
+2025-04-29 01:59:47,248 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S123_Towner_Road.csv
+2025-04-29 01:59:47,252 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S89_Tuas_Road.csv
+2025-04-29 01:59:47,255 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-29 01:59:47,259 - INFO - Saved 720 records to singapore_weather_monthly\2024_06\S08_Upper_Thomson_Road.csv
+2025-04-29 01:59:47,262 - INFO - Saved 128 records to singapore_weather_monthly\2024_06\S102_Semakau_Landfill.csv
+2025-04-29 01:59:47,263 - INFO - Saved metadata for 64 stations to singapore_weather_monthly\2024_06\station_metadata.csv
+2025-04-29 01:59:47,274 - INFO - Created directory: singapore_weather_monthly\2024_07
+2025-04-29 01:59:47,275 - INFO - Collecting data for 2024_07: 2024-07-01 to 2024-07-31
+2025-04-29 01:59:47,275 - INFO - Creating date range from 2024-07-01 to 2024-07-31
+2025-04-29 01:59:47,277 - INFO - Generated 744 timestamps
+2025-04-29 03:09:30,092 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-29 03:09:30,098 - INFO - Saved 725 records to singapore_weather_monthly\2024_07\S117_Banyan_Road.csv
+2025-04-29 03:09:30,104 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S50_Clementi_Road.csv
+2025-04-29 03:09:30,108 - INFO - Saved 719 records to singapore_weather_monthly\2024_07\S107_East_Coast_Parkway.csv
+2025-04-29 03:09:30,112 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S43_Kim_Chuan_Road.csv
+2025-04-29 03:09:30,116 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S108_Marina_Gardens_Drive.csv
+2025-04-29 03:09:30,120 - INFO - Saved 736 records to singapore_weather_monthly\2024_07\S44_Nanyang_Avenue.csv
+2025-04-29 03:09:30,123 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S111_Scotts_Road.csv
+2025-04-29 03:09:30,126 - INFO - Saved 421 records to singapore_weather_monthly\2024_07\S102_Semakau_Landfill.csv
+2025-04-29 03:09:30,131 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S60_Sentosa.csv
+2025-04-29 03:09:30,136 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S115_Tuas_South_Avenue_3.csv
+2025-04-29 03:09:30,141 - INFO - Saved 742 records to singapore_weather_monthly\2024_07\S24_Upper_Changi_Road_North.csv
+2025-04-29 03:09:30,148 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S116_West_Coast_Highway.csv
+2025-04-29 03:09:30,154 - INFO - Saved 720 records to singapore_weather_monthly\2024_07\S104_Woodlands_Avenue_9.csv
+2025-04-29 03:09:30,158 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S77_Alexandra_Road.csv
+2025-04-29 03:09:30,162 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S64_Bukit_Panjang_Road.csv
+2025-04-29 03:09:30,167 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S90_Bukit_Timah_Road.csv
+2025-04-29 03:09:30,170 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S114_Choa_Chu_Kang_Avenue_4.csv
+2025-04-29 03:09:30,172 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S215_GEYLANG_EAST_CENTRAL.csv
+2025-04-29 03:09:30,176 - INFO - Saved 730 records to singapore_weather_monthly\2024_07\S33_Jurong_Pier_Road.csv
+2025-04-29 03:09:30,179 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S71_Kent_Ridge_Road.csv
+2025-04-29 03:09:30,182 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S66_Kranji_Way.csv
+2025-04-29 03:09:30,185 - INFO - Saved 655 records to singapore_weather_monthly\2024_07\S112_Lim_Chu_Kang_Road.csv
+2025-04-29 03:09:30,188 - INFO - Saved 732 records to singapore_weather_monthly\2024_07\S07_Lornie_Road.csv
+2025-04-29 03:09:30,191 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S40_Mandai_Lake_Road.csv
+2025-04-29 03:09:30,194 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S113_Marine_Parade_Road.csv
+2025-04-29 03:09:30,197 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S119_Nicoll_Highway.csv
+2025-04-29 03:09:30,201 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S35_Old_Toh_Tuck_Road.csv
+2025-04-29 03:09:30,204 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S94_Pasir_Ris_Street_51.csv
+2025-04-29 03:09:30,208 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S78_Poole_Road.csv
+2025-04-29 03:09:30,212 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S81_Punggol_Central.csv
+2025-04-29 03:09:30,215 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S201_S201.csv
+2025-04-29 03:09:30,217 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S203_S203.csv
+2025-04-29 03:09:30,221 - INFO - Saved 720 records to singapore_weather_monthly\2024_07\S207_S207.csv
+2025-04-29 03:09:30,224 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S208_S208.csv
+2025-04-29 03:09:30,227 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S209_S209.csv
+2025-04-29 03:09:30,230 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S210_S210.csv
+2025-04-29 03:09:30,234 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S212_S212.csv
+2025-04-29 03:09:30,238 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S213_S213.csv
+2025-04-29 03:09:30,242 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S214_S214.csv
+2025-04-29 03:09:30,246 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S216_S216.csv
+2025-04-29 03:09:30,249 - INFO - Saved 740 records to singapore_weather_monthly\2024_07\S217_S217.csv
+2025-04-29 03:09:30,252 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S218_S218.csv
+2025-04-29 03:09:30,255 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S219_S219.csv
+2025-04-29 03:09:30,258 - INFO - Saved 742 records to singapore_weather_monthly\2024_07\S220_S220.csv
+2025-04-29 03:09:30,261 - INFO - Saved 740 records to singapore_weather_monthly\2024_07\S221_S221.csv
+2025-04-29 03:09:30,264 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S222_S222.csv
+2025-04-29 03:09:30,267 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S223_S223.csv
+2025-04-29 03:09:30,271 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S224_S224.csv
+2025-04-29 03:09:30,275 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S226_S226.csv
+2025-04-29 03:09:30,277 - INFO - Saved 742 records to singapore_weather_monthly\2024_07\S227_S227.csv
+2025-04-29 03:09:30,281 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S228_S228.csv
+2025-04-29 03:09:30,284 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S229_S229.csv
+2025-04-29 03:09:30,287 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S230_S230.csv
+2025-04-29 03:09:30,290 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S900_Seletar_Aerospace_View.csv
+2025-04-29 03:09:30,293 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S84_Simei_Avenue.csv
+2025-04-29 03:09:30,295 - INFO - Saved 371 records to singapore_weather_monthly\2024_07\S79_Somerset_Road.csv
+2025-04-29 03:09:30,298 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S88_Toa_Payoh_North.csv
+2025-04-29 03:09:30,301 - INFO - Saved 559 records to singapore_weather_monthly\2024_07\S123_Towner_Road.csv
+2025-04-29 03:09:30,304 - INFO - Saved 744 records to singapore_weather_monthly\2024_07\S89_Tuas_Road.csv
+2025-04-29 03:09:30,307 - INFO - Saved 720 records to singapore_weather_monthly\2024_07\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-29 03:09:30,310 - INFO - Saved 743 records to singapore_weather_monthly\2024_07\S08_Upper_Thomson_Road.csv
+2025-04-29 03:09:30,314 - INFO - Saved 727 records to singapore_weather_monthly\2024_07\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-29 03:09:30,317 - INFO - Saved 723 records to singapore_weather_monthly\2024_07\S211_S211.csv
+2025-04-29 03:09:30,319 - INFO - Saved metadata for 64 stations to singapore_weather_monthly\2024_07\station_metadata.csv
+2025-04-29 03:09:30,329 - INFO - Created directory: singapore_weather_monthly\2024_08
+2025-04-29 03:09:30,329 - INFO - Collecting data for 2024_08: 2024-08-01 to 2024-08-31
+2025-04-29 03:09:30,329 - INFO - Creating date range from 2024-08-01 to 2024-08-31
+2025-04-29 03:09:30,331 - INFO - Generated 744 timestamps
+2025-04-29 04:11:09,555 - INFO - Saved 730 records to singapore_weather_monthly\2024_08\S108_Marina_Gardens_Drive.csv
+2025-04-29 04:11:09,561 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-29 04:11:09,566 - INFO - Saved 389 records to singapore_weather_monthly\2024_08\S117_Banyan_Road.csv
+2025-04-29 04:11:09,570 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S107_East_Coast_Parkway.csv
+2025-04-29 04:11:09,574 - INFO - Saved 588 records to singapore_weather_monthly\2024_08\S104_Woodlands_Avenue_9.csv
+2025-04-29 04:11:09,578 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S115_Tuas_South_Avenue_3.csv
+2025-04-29 04:11:09,581 - INFO - Saved 585 records to singapore_weather_monthly\2024_08\S116_West_Coast_Highway.csv
+2025-04-29 04:11:09,585 - INFO - Saved 515 records to singapore_weather_monthly\2024_08\S60_Sentosa.csv
+2025-04-29 04:11:09,588 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S44_Nanyang_Avenue.csv
+2025-04-29 04:11:09,593 - INFO - Saved 732 records to singapore_weather_monthly\2024_08\S43_Kim_Chuan_Road.csv
+2025-04-29 04:11:09,599 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S24_Upper_Changi_Road_North.csv
+2025-04-29 04:11:09,605 - INFO - Saved 610 records to singapore_weather_monthly\2024_08\S111_Scotts_Road.csv
+2025-04-29 04:11:09,610 - INFO - Saved 658 records to singapore_weather_monthly\2024_08\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-29 04:11:09,613 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S218_Bukit_Batok_Street_34.csv
+2025-04-29 04:11:09,616 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S219_Yio_Chu_Kang_Road.csv
+2025-04-29 04:11:09,620 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-29 04:11:09,624 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S217_Bishan_Street_13.csv
+2025-04-29 04:11:09,627 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S214_Tanjong_Rhu.csv
+2025-04-29 04:11:09,630 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S215_Geylang_East_Central.csv
+2025-04-29 04:11:09,633 - INFO - Saved 99 records to singapore_weather_monthly\2024_08\S212_Tampines_Avenue_9.csv
+2025-04-29 04:11:09,636 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S213_Coronation_Walk.csv
+2025-04-29 04:11:09,639 - INFO - Saved 710 records to singapore_weather_monthly\2024_08\S81_Punggol_Central.csv
+2025-04-29 04:11:09,642 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S40_Mandai_Lake_Road.csv
+2025-04-29 04:11:09,645 - INFO - Saved 709 records to singapore_weather_monthly\2024_08\S84_Simei_Avenue.csv
+2025-04-29 04:11:09,649 - INFO - Saved 707 records to singapore_weather_monthly\2024_08\S88_Toa_Payoh_North.csv
+2025-04-29 04:11:09,652 - INFO - Saved 706 records to singapore_weather_monthly\2024_08\S89_Tuas_Road.csv
+2025-04-29 04:11:09,656 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S221_Hougang_Avenue_1.csv
+2025-04-29 04:11:09,659 - INFO - Saved 742 records to singapore_weather_monthly\2024_08\S222_Henderson_Road.csv
+2025-04-29 04:11:09,662 - INFO - Saved 710 records to singapore_weather_monthly\2024_08\S08_Upper_Thomson_Road.csv
+2025-04-29 04:11:09,665 - INFO - Saved 630 records to singapore_weather_monthly\2024_08\S07_Lornie_Road.csv
+2025-04-29 04:11:09,669 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S220_Compassvale_Lane.csv
+2025-04-29 04:11:09,672 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S207_Bedok_Road.csv
+2025-04-29 04:11:09,676 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S208_Changi_East_Close.csv
+2025-04-29 04:11:09,679 - INFO - Saved 320 records to singapore_weather_monthly\2024_08\S203_Pasir_Panjang.csv
+2025-04-29 04:11:09,683 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S201_Clementi_Park.csv
+2025-04-29 04:11:09,686 - INFO - Saved 710 records to singapore_weather_monthly\2024_08\S90_Bukit_Timah_Road.csv
+2025-04-29 04:11:09,690 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S209_Yishun_Ring_Road.csv
+2025-04-29 04:11:09,695 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S50_Clementi_Road.csv
+2025-04-29 04:11:09,699 - INFO - Saved 657 records to singapore_weather_monthly\2024_08\S94_Pasir_Ris_Street_51.csv
+2025-04-29 04:11:09,702 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S210_Woodlands_Centre.csv
+2025-04-29 04:11:09,705 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S211_Kranji_Road.csv
+2025-04-29 04:11:09,708 - INFO - Saved 710 records to singapore_weather_monthly\2024_08\S119_Nicoll_Highway.csv
+2025-04-29 04:11:09,711 - INFO - Saved 658 records to singapore_weather_monthly\2024_08\S113_Marine_Parade_Road.csv
+2025-04-29 04:11:09,715 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S114_Choa_Chu_Kang_Avenue_4.csv
+2025-04-29 04:11:09,718 - INFO - Saved 709 records to singapore_weather_monthly\2024_08\S64_Bukit_Panjang_Road.csv
+2025-04-29 04:11:09,722 - INFO - Saved 719 records to singapore_weather_monthly\2024_08\S66_Kranji_Way.csv
+2025-04-29 04:11:09,725 - INFO - Saved 510 records to singapore_weather_monthly\2024_08\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-29 04:11:09,727 - INFO - Saved 382 records to singapore_weather_monthly\2024_08\S123_Towner_Road.csv
+2025-04-29 04:11:09,730 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S229_Jurong_West_Street_42.csv
+2025-04-29 04:11:09,734 - INFO - Saved 708 records to singapore_weather_monthly\2024_08\S900_Seletar_Aerospace_View.csv
+2025-04-29 04:11:09,737 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S227_Woodlands_Drive_62.csv
+2025-04-29 04:11:09,740 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S228_Jurong_West_Street_73.csv
+2025-04-29 04:11:09,743 - INFO - Saved 728 records to singapore_weather_monthly\2024_08\S226_Malan_Road.csv
+2025-04-29 04:11:09,746 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S223_Margaret_Drive.csv
+2025-04-29 04:11:09,749 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S224_Airport_Boulevard.csv
+2025-04-29 04:11:09,752 - INFO - Saved 708 records to singapore_weather_monthly\2024_08\S71_Kent_Ridge_Road.csv
+2025-04-29 04:11:09,754 - INFO - Saved 293 records to singapore_weather_monthly\2024_08\S33_Jurong_Pier_Road.csv
+2025-04-29 04:11:09,756 - INFO - Saved 707 records to singapore_weather_monthly\2024_08\S77_Alexandra_Road.csv
+2025-04-29 04:11:09,759 - INFO - Saved 743 records to singapore_weather_monthly\2024_08\S35_Old_Toh_Tuck_Road.csv
+2025-04-29 04:11:09,761 - INFO - Saved 282 records to singapore_weather_monthly\2024_08\S79_Somerset_Road.csv
+2025-04-29 04:11:09,764 - INFO - Saved 686 records to singapore_weather_monthly\2024_08\S78_Poole_Road.csv
+2025-04-29 04:11:09,767 - INFO - Saved 744 records to singapore_weather_monthly\2024_08\S230_West_Coast_Road.csv
+2025-04-29 04:11:09,770 - INFO - Saved 376 records to singapore_weather_monthly\2024_08\S112_Lim_Chu_Kang_Road.csv
+2025-04-29 04:11:09,771 - INFO - Saved metadata for 63 stations to singapore_weather_monthly\2024_08\station_metadata.csv
+2025-04-29 04:11:09,781 - INFO - Created directory: singapore_weather_monthly\2024_09
+2025-04-29 04:11:09,781 - INFO - Collecting data for 2024_09: 2024-09-01 to 2024-09-30
+2025-04-29 04:11:09,781 - INFO - Creating date range from 2024-09-01 to 2024-09-30
+2025-04-29 04:11:09,783 - INFO - Generated 720 timestamps
+2025-04-29 05:18:55,488 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S108_Marina_Gardens_Drive.csv
+2025-04-29 05:18:55,493 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-29 05:18:55,499 - INFO - Saved 707 records to singapore_weather_monthly\2024_09\S117_Banyan_Road.csv
+2025-04-29 05:18:55,504 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S107_East_Coast_Parkway.csv
+2025-04-29 05:18:55,507 - INFO - Saved 683 records to singapore_weather_monthly\2024_09\S104_Woodlands_Avenue_9.csv
+2025-04-29 05:18:55,511 - INFO - Saved 713 records to singapore_weather_monthly\2024_09\S115_Tuas_South_Avenue_3.csv
+2025-04-29 05:18:55,515 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S116_West_Coast_Highway.csv
+2025-04-29 05:18:55,520 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S60_Sentosa.csv
+2025-04-29 05:18:55,524 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S50_Clementi_Road.csv
+2025-04-29 05:18:55,528 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S44_Nanyang_Avenue.csv
+2025-04-29 05:18:55,536 - INFO - Saved 713 records to singapore_weather_monthly\2024_09\S43_Kim_Chuan_Road.csv
+2025-04-29 05:18:55,542 - INFO - Saved 711 records to singapore_weather_monthly\2024_09\S24_Upper_Changi_Road_North.csv
+2025-04-29 05:18:55,548 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S111_Scotts_Road.csv
+2025-04-29 05:18:55,554 - INFO - Saved 711 records to singapore_weather_monthly\2024_09\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-29 05:18:55,559 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S218_Bukit_Batok_Street_34.csv
+2025-04-29 05:18:55,563 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S219_Yio_Chu_Kang_Road.csv
+2025-04-29 05:18:55,569 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-29 05:18:55,573 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S217_Bishan_Street_13.csv
+2025-04-29 05:18:55,577 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S214_Tanjong_Rhu.csv
+2025-04-29 05:18:55,581 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S215_Geylang_East_Central.csv
+2025-04-29 05:18:55,584 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S213_Coronation_Walk.csv
+2025-04-29 05:18:55,588 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S81_Punggol_Central.csv
+2025-04-29 05:18:55,592 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S40_Mandai_Lake_Road.csv
+2025-04-29 05:18:55,598 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S84_Simei_Avenue.csv
+2025-04-29 05:18:55,603 - INFO - Saved 524 records to singapore_weather_monthly\2024_09\S88_Toa_Payoh_North.csv
+2025-04-29 05:18:55,607 - INFO - Saved 665 records to singapore_weather_monthly\2024_09\S89_Tuas_Road.csv
+2025-04-29 05:18:55,613 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S221_Hougang_Avenue_1.csv
+2025-04-29 05:18:55,617 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S222_Henderson_Road.csv
+2025-04-29 05:18:55,621 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S08_Upper_Thomson_Road.csv
+2025-04-29 05:18:55,625 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S07_Lornie_Road.csv
+2025-04-29 05:18:55,630 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S220_Compassvale_Lane.csv
+2025-04-29 05:18:55,634 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S207_Bedok_Road.csv
+2025-04-29 05:18:55,638 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S208_Changi_East_Close.csv
+2025-04-29 05:18:55,643 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S203_Pasir_Panjang.csv
+2025-04-29 05:18:55,647 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S201_Clementi_Park.csv
+2025-04-29 05:18:55,652 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S90_Bukit_Timah_Road.csv
+2025-04-29 05:18:55,656 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S209_Yishun_Ring_Road.csv
+2025-04-29 05:18:55,660 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S94_Pasir_Ris_Street_51.csv
+2025-04-29 05:18:55,664 - INFO - Saved 719 records to singapore_weather_monthly\2024_09\S210_Woodlands_Centre.csv
+2025-04-29 05:18:55,667 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S211_Kranji_Road.csv
+2025-04-29 05:18:55,670 - INFO - Saved 711 records to singapore_weather_monthly\2024_09\S119_Nicoll_Highway.csv
+2025-04-29 05:18:55,673 - INFO - Saved 538 records to singapore_weather_monthly\2024_09\S113_Marine_Parade_Road.csv
+2025-04-29 05:18:55,677 - INFO - Saved 714 records to singapore_weather_monthly\2024_09\S114_Choa_Chu_Kang_Avenue_4.csv
+2025-04-29 05:18:55,680 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S64_Bukit_Panjang_Road.csv
+2025-04-29 05:18:55,683 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S66_Kranji_Way.csv
+2025-04-29 05:18:55,686 - INFO - Saved 718 records to singapore_weather_monthly\2024_09\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-29 05:18:55,690 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S229_Jurong_West_Street_42.csv
+2025-04-29 05:18:55,693 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S900_Seletar_Aerospace_View.csv
+2025-04-29 05:18:55,696 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S227_Woodlands_Drive_62.csv
+2025-04-29 05:18:55,699 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S228_Jurong_West_Street_73.csv
+2025-04-29 05:18:55,704 - INFO - Saved 719 records to singapore_weather_monthly\2024_09\S226_Malan_Road.csv
+2025-04-29 05:18:55,707 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S223_Margaret_Drive.csv
+2025-04-29 05:18:55,710 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S224_Airport_Boulevard.csv
+2025-04-29 05:18:55,713 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S71_Kent_Ridge_Road.csv
+2025-04-29 05:18:55,718 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S33_Jurong_Pier_Road.csv
+2025-04-29 05:18:55,721 - INFO - Saved 712 records to singapore_weather_monthly\2024_09\S77_Alexandra_Road.csv
+2025-04-29 05:18:55,724 - INFO - Saved 709 records to singapore_weather_monthly\2024_09\S35_Old_Toh_Tuck_Road.csv
+2025-04-29 05:18:55,728 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S79_Somerset_Road.csv
+2025-04-29 05:18:55,731 - INFO - Saved 709 records to singapore_weather_monthly\2024_09\S78_Poole_Road.csv
+2025-04-29 05:18:55,736 - INFO - Saved 720 records to singapore_weather_monthly\2024_09\S230_West_Coast_Road.csv
+2025-04-29 05:18:55,739 - INFO - Saved 566 records to singapore_weather_monthly\2024_09\S112_Lim_Chu_Kang_Road.csv
+2025-04-29 05:18:55,741 - INFO - Saved 484 records to singapore_weather_monthly\2024_09\S123_Towner_Road.csv
+2025-04-29 05:18:55,743 - INFO - Saved metadata for 62 stations to singapore_weather_monthly\2024_09\station_metadata.csv
+2025-04-29 05:18:55,752 - INFO - Created directory: singapore_weather_monthly\2024_10
+2025-04-29 05:18:55,752 - INFO - Collecting data for 2024_10: 2024-10-01 to 2024-10-31
+2025-04-29 05:18:55,752 - INFO - Creating date range from 2024-10-01 to 2024-10-31
+2025-04-29 05:18:55,755 - INFO - Generated 744 timestamps
+2025-04-29 06:31:37,248 - INFO - Saved 686 records to singapore_weather_monthly\2024_10\S108_Marina_Gardens_Drive.csv
+2025-04-29 06:31:37,254 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-29 06:31:37,259 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S117_Banyan_Road.csv
+2025-04-29 06:31:37,263 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S107_East_Coast_Parkway.csv
+2025-04-29 06:31:37,268 - INFO - Saved 739 records to singapore_weather_monthly\2024_10\S104_Woodlands_Avenue_9.csv
+2025-04-29 06:31:37,272 - INFO - Saved 739 records to singapore_weather_monthly\2024_10\S115_Tuas_South_Avenue_3.csv
+2025-04-29 06:31:37,279 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S116_West_Coast_Highway.csv
+2025-04-29 06:31:37,286 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S60_Sentosa.csv
+2025-04-29 06:31:37,292 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S50_Clementi_Road.csv
+2025-04-29 06:31:37,296 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S44_Nanyang_Avenue.csv
+2025-04-29 06:31:37,301 - INFO - Saved 725 records to singapore_weather_monthly\2024_10\S43_Kim_Chuan_Road.csv
+2025-04-29 06:31:37,305 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S24_Upper_Changi_Road_North.csv
+2025-04-29 06:31:37,311 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S111_Scotts_Road.csv
+2025-04-29 06:31:37,315 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-29 06:31:37,319 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S218_Bukit_Batok_Street_34.csv
+2025-04-29 06:31:37,323 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S219_Yio_Chu_Kang_Road.csv
+2025-04-29 06:31:37,327 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-29 06:31:37,330 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S217_Bishan_Street_13.csv
+2025-04-29 06:31:37,333 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S214_Tanjong_Rhu.csv
+2025-04-29 06:31:37,337 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S215_Geylang_East_Central.csv
+2025-04-29 06:31:37,340 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S213_Coronation_Walk.csv
+2025-04-29 06:31:37,344 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S81_Punggol_Central.csv
+2025-04-29 06:31:37,347 - INFO - Saved 334 records to singapore_weather_monthly\2024_10\S40_Mandai_Lake_Road.csv
+2025-04-29 06:31:37,351 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S84_Simei_Avenue.csv
+2025-04-29 06:31:37,356 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S88_Toa_Payoh_North.csv
+2025-04-29 06:31:37,359 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S89_Tuas_Road.csv
+2025-04-29 06:31:37,362 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S221_Hougang_Avenue_1.csv
+2025-04-29 06:31:37,366 - INFO - Saved 739 records to singapore_weather_monthly\2024_10\S222_Henderson_Road.csv
+2025-04-29 06:31:37,369 - INFO - Saved 427 records to singapore_weather_monthly\2024_10\S08_Upper_Thomson_Road.csv
+2025-04-29 06:31:37,372 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S07_Lornie_Road.csv
+2025-04-29 06:31:37,375 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S220_Compassvale_Lane.csv
+2025-04-29 06:31:37,378 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S207_Bedok_Road.csv
+2025-04-29 06:31:37,381 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S208_Changi_East_Close.csv
+2025-04-29 06:31:37,384 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S203_Pasir_Panjang.csv
+2025-04-29 06:31:37,387 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S201_Clementi_Park.csv
+2025-04-29 06:31:37,389 - INFO - Saved 601 records to singapore_weather_monthly\2024_10\S90_Bukit_Timah_Road.csv
+2025-04-29 06:31:37,393 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S209_Yishun_Ring_Road.csv
+2025-04-29 06:31:37,396 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S94_Pasir_Ris_Street_51.csv
+2025-04-29 06:31:37,400 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S210_Woodlands_Centre.csv
+2025-04-29 06:31:37,403 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S211_Kranji_Road.csv
+2025-04-29 06:31:37,405 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S119_Nicoll_Highway.csv
+2025-04-29 06:31:37,408 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S113_Marine_Parade_Road.csv
+2025-04-29 06:31:37,411 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S114_Choa_Chu_Kang_Avenue_4.csv
+2025-04-29 06:31:37,415 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S64_Bukit_Panjang_Road.csv
+2025-04-29 06:31:37,417 - INFO - Saved 505 records to singapore_weather_monthly\2024_10\S66_Kranji_Way.csv
+2025-04-29 06:31:37,420 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-29 06:31:37,423 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S229_Jurong_West_Street_42.csv
+2025-04-29 06:31:37,426 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S900_Seletar_Aerospace_View.csv
+2025-04-29 06:31:37,429 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S227_Woodlands_Drive_62.csv
+2025-04-29 06:31:37,432 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S228_Jurong_West_Street_73.csv
+2025-04-29 06:31:37,435 - INFO - Saved 742 records to singapore_weather_monthly\2024_10\S226_Malan_Road.csv
+2025-04-29 06:31:37,438 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S223_Margaret_Drive.csv
+2025-04-29 06:31:37,441 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S224_Airport_Boulevard.csv
+2025-04-29 06:31:37,444 - INFO - Saved 456 records to singapore_weather_monthly\2024_10\S71_Kent_Ridge_Road.csv
+2025-04-29 06:31:37,448 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S33_Jurong_Pier_Road.csv
+2025-04-29 06:31:37,451 - INFO - Saved 742 records to singapore_weather_monthly\2024_10\S77_Alexandra_Road.csv
+2025-04-29 06:31:37,454 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S35_Old_Toh_Tuck_Road.csv
+2025-04-29 06:31:37,458 - INFO - Saved 744 records to singapore_weather_monthly\2024_10\S79_Somerset_Road.csv
+2025-04-29 06:31:37,462 - INFO - Saved 726 records to singapore_weather_monthly\2024_10\S78_Poole_Road.csv
+2025-04-29 06:31:37,466 - INFO - Saved 638 records to singapore_weather_monthly\2024_10\S112_Lim_Chu_Kang_Road.csv
+2025-04-29 06:31:37,469 - INFO - Saved 743 records to singapore_weather_monthly\2024_10\S230_West_Coast_Road.csv
+2025-04-29 06:31:37,472 - INFO - Saved 312 records to singapore_weather_monthly\2024_10\S123_Towner_Road.csv
+2025-04-29 06:31:37,473 - INFO - Saved metadata for 62 stations to singapore_weather_monthly\2024_10\station_metadata.csv
+2025-04-29 06:31:37,481 - INFO - Created directory: singapore_weather_monthly\2024_11
+2025-04-29 06:31:37,481 - INFO - Collecting data for 2024_11: 2024-11-01 to 2024-11-21
+2025-04-29 06:31:37,481 - INFO - Creating date range from 2024-11-01 to 2024-11-21
+2025-04-29 06:31:37,483 - INFO - Generated 504 timestamps
+2025-04-29 06:43:53,436 - WARNING - No temperature data available for 2024-11-06T08:00:00
+2025-04-29 06:43:53,692 - WARNING - No rainfall data available for 2024-11-06T08:00:00
+2025-04-29 06:43:53,816 - WARNING - No humidity data available for 2024-11-06T08:00:00
+2025-04-29 06:43:53,921 - WARNING - No wind_direction data available for 2024-11-06T08:00:00
+2025-04-29 06:43:54,128 - WARNING - No wind_speed data available for 2024-11-06T08:00:00
+2025-04-29 06:43:54,325 - WARNING - No temperature data available for 2024-11-06T09:00:00
+2025-04-29 06:43:54,466 - WARNING - No rainfall data available for 2024-11-06T09:00:00
+2025-04-29 06:43:54,585 - WARNING - No humidity data available for 2024-11-06T09:00:00
+2025-04-29 06:43:54,698 - WARNING - No wind_direction data available for 2024-11-06T09:00:00
+2025-04-29 06:43:54,838 - WARNING - No wind_speed data available for 2024-11-06T09:00:00
+2025-04-29 07:22:00,190 - INFO - Saved 471 records to singapore_weather_monthly\2024_11\S108_Marina_Gardens_Drive.csv
+2025-04-29 07:22:00,195 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-29 07:22:00,199 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S117_Banyan_Road.csv
+2025-04-29 07:22:00,206 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S107_East_Coast_Parkway.csv
+2025-04-29 07:22:00,210 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S104_Woodlands_Avenue_9.csv
+2025-04-29 07:22:00,215 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S115_Tuas_South_Avenue_3.csv
+2025-04-29 07:22:00,219 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S116_West_Coast_Highway.csv
+2025-04-29 07:22:00,223 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S60_Sentosa.csv
+2025-04-29 07:22:00,227 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S50_Clementi_Road.csv
+2025-04-29 07:22:00,231 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S44_Nanyang_Avenue.csv
+2025-04-29 07:22:00,235 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S43_Kim_Chuan_Road.csv
+2025-04-29 07:22:00,239 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S24_Upper_Changi_Road_North.csv
+2025-04-29 07:22:00,243 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S111_Scotts_Road.csv
+2025-04-29 07:22:00,247 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-29 07:22:00,250 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S218_Bukit_Batok_Street_34.csv
+2025-04-29 07:22:00,253 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S219_Yio_Chu_Kang_Road.csv
+2025-04-29 07:22:00,256 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S216_Ang_Mo_Kio_Avenue_10.csv
+2025-04-29 07:22:00,259 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S217_Bishan_Street_13.csv
+2025-04-29 07:22:00,262 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S214_Tanjong_Rhu.csv
+2025-04-29 07:22:00,265 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S215_Geylang_East_Central.csv
+2025-04-29 07:22:00,268 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S213_Coronation_Walk.csv
+2025-04-29 07:22:00,271 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S81_Punggol_Central.csv
+2025-04-29 07:22:00,274 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S84_Simei_Avenue.csv
+2025-04-29 07:22:00,277 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S88_Toa_Payoh_North.csv
+2025-04-29 07:22:00,280 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S89_Tuas_Road.csv
+2025-04-29 07:22:00,284 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S221_Hougang_Avenue_1.csv
+2025-04-29 07:22:00,287 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S222_Henderson_Road.csv
+2025-04-29 07:22:00,290 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S08_Upper_Thomson_Road.csv
+2025-04-29 07:22:00,292 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S07_Lornie_Road.csv
+2025-04-29 07:22:00,295 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S220_Compassvale_Lane.csv
+2025-04-29 07:22:00,298 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S207_Bedok_Road.csv
+2025-04-29 07:22:00,301 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S208_Changi_East_Close.csv
+2025-04-29 07:22:00,303 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S203_Pasir_Panjang.csv
+2025-04-29 07:22:00,307 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S201_Clementi_Park.csv
+2025-04-29 07:22:00,310 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S90_Bukit_Timah_Road.csv
+2025-04-29 07:22:00,313 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S209_Yishun_Ring_Road.csv
+2025-04-29 07:22:00,315 - INFO - Saved 273 records to singapore_weather_monthly\2024_11\S94_Pasir_Ris_Street_51.csv
+2025-04-29 07:22:00,318 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S210_Woodlands_Centre.csv
+2025-04-29 07:22:00,321 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S211_Kranji_Road.csv
+2025-04-29 07:22:00,324 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S119_Nicoll_Highway.csv
+2025-04-29 07:22:00,327 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S113_Marine_Parade_Road.csv
+2025-04-29 07:22:00,330 - INFO - Saved 465 records to singapore_weather_monthly\2024_11\S114_Choa_Chu_Kang_Avenue_4.csv
+2025-04-29 07:22:00,332 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S64_Bukit_Panjang_Road.csv
+2025-04-29 07:22:00,335 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S66_Kranji_Way.csv
+2025-04-29 07:22:00,338 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-29 07:22:00,341 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S229_Jurong_West_Street_42.csv
+2025-04-29 07:22:00,344 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S900_Seletar_Aerospace_View.csv
+2025-04-29 07:22:00,346 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S227_Woodlands_Drive_62.csv
+2025-04-29 07:22:00,349 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S228_Jurong_West_Street_73.csv
+2025-04-29 07:22:00,352 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S226_Malan_Road.csv
+2025-04-29 07:22:00,354 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S223_Margaret_Drive.csv
+2025-04-29 07:22:00,357 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S224_Airport_Boulevard.csv
+2025-04-29 07:22:00,360 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S71_Kent_Ridge_Road.csv
+2025-04-29 07:22:00,362 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S33_Jurong_Pier_Road.csv
+2025-04-29 07:22:00,367 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S77_Alexandra_Road.csv
+2025-04-29 07:22:00,369 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S35_Old_Toh_Tuck_Road.csv
+2025-04-29 07:22:00,372 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S79_Somerset_Road.csv
+2025-04-29 07:22:00,375 - INFO - Saved 492 records to singapore_weather_monthly\2024_11\S78_Poole_Road.csv
+2025-04-29 07:22:00,378 - INFO - Saved 502 records to singapore_weather_monthly\2024_11\S230_West_Coast_Road.csv
+2025-04-29 07:22:00,381 - INFO - Saved 366 records to singapore_weather_monthly\2024_11\S106_Pulau_Ubin.csv
+2025-04-29 07:22:00,383 - INFO - Saved 281 records to singapore_weather_monthly\2024_11\S92_South_Buona_Vista_Road.csv
+2025-04-29 07:22:00,386 - INFO - Saved 366 records to singapore_weather_monthly\2024_11\S29_Pasir_Ris_Drive_12.csv
+2025-04-29 07:22:00,389 - INFO - Saved 344 records to singapore_weather_monthly\2024_11\S06_Paya_Lebar.csv
+2025-04-29 07:22:00,391 - INFO - Saved 344 records to singapore_weather_monthly\2024_11\S40_Mandai_Lake_Road.csv
+2025-04-29 07:22:00,392 - INFO - Saved metadata for 64 stations to singapore_weather_monthly\2024_11\station_metadata.csv
+2025-04-29 07:22:00,398 - INFO - Created directory: singapore_weather_stations
+2025-04-29 07:22:00,399 - INFO - Saved complete metadata for 69 stations to singapore_weather_stations\all_station_metadata.csv
+2025-04-29 07:22:00,474 - INFO - Saved merged data with 5727 records to singapore_weather_stations\S07_Lornie_Road.csv
+2025-04-29 07:22:00,555 - INFO - Saved merged data with 5501 records to singapore_weather_stations\S08_Upper_Thomson_Road.csv
+2025-04-29 07:22:00,676 - INFO - Saved merged data with 5639 records to singapore_weather_stations\S104_Woodlands_Avenue_9.csv
+2025-04-29 07:22:00,825 - INFO - Saved merged data with 5823 records to singapore_weather_stations\S107_East_Coast_Parkway.csv
+2025-04-29 07:22:00,939 - INFO - Saved merged data with 5586 records to singapore_weather_stations\S108_Marina_Gardens_Drive.csv
+2025-04-29 07:22:01,060 - INFO - Saved merged data with 5757 records to singapore_weather_stations\S109_Ang_Mo_Kio_Avenue_5.csv
+2025-04-29 07:22:01,186 - INFO - Saved merged data with 5719 records to singapore_weather_stations\S111_Scotts_Road.csv
+2025-04-29 07:22:01,270 - INFO - Saved merged data with 4170 records to singapore_weather_stations\S112_Lim_Chu_Kang_Road.csv
+2025-04-29 07:22:01,370 - INFO - Saved merged data with 5528 records to singapore_weather_stations\S113_Marine_Parade_Road.csv
+2025-04-29 07:22:01,451 - INFO - Saved merged data with 4857 records to singapore_weather_stations\S114_Choa_Chu_Kang_Avenue_4.csv
+2025-04-29 07:22:01,542 - INFO - Saved merged data with 5590 records to singapore_weather_stations\S115_Tuas_South_Avenue_3.csv
+2025-04-29 07:22:01,625 - INFO - Saved merged data with 5376 records to singapore_weather_stations\S116_West_Coast_Highway.csv
+2025-04-29 07:22:01,732 - INFO - Saved merged data with 5491 records to singapore_weather_stations\S117_Banyan_Road.csv
+2025-04-29 07:22:01,832 - INFO - Saved merged data with 5817 records to singapore_weather_stations\S119_Nicoll_Highway.csv
+2025-04-29 07:22:01,845 - INFO - Saved merged data with 40 records to singapore_weather_stations\S120_Holland_Road.csv
+2025-04-29 07:22:01,934 - INFO - Saved merged data with 5530 records to singapore_weather_stations\S121_Old_Choa_Chu_Kang_Road.csv
+2025-04-29 07:22:02,016 - INFO - Saved merged data with 3847 records to singapore_weather_stations\S123_Towner_Road.csv
+2025-04-29 07:22:02,110 - INFO - Saved merged data with 5876 records to singapore_weather_stations\S201_S201.csv
+2025-04-29 07:22:02,192 - INFO - Saved merged data with 5452 records to singapore_weather_stations\S203_S203.csv
+2025-04-29 07:22:02,294 - INFO - Saved merged data with 5853 records to singapore_weather_stations\S207_S207.csv
+2025-04-29 07:22:02,387 - INFO - Saved merged data with 5875 records to singapore_weather_stations\S208_S208.csv
+2025-04-29 07:22:02,481 - INFO - Saved merged data with 5877 records to singapore_weather_stations\S209_S209.csv
+2025-04-29 07:22:02,586 - INFO - Saved merged data with 5875 records to singapore_weather_stations\S210_S210.csv
+2025-04-29 07:22:02,683 - INFO - Saved merged data with 5760 records to singapore_weather_stations\S211_S211.csv
+2025-04-29 07:22:02,729 - INFO - Saved merged data with 2307 records to singapore_weather_stations\S212_S212.csv
+2025-04-29 07:22:02,824 - INFO - Saved merged data with 5834 records to singapore_weather_stations\S213_S213.csv
+2025-04-29 07:22:02,904 - INFO - Saved merged data with 5877 records to singapore_weather_stations\S214_S214.csv
+2025-04-29 07:22:03,011 - INFO - Saved merged data with 5877 records to singapore_weather_stations\S215_GEYLANG_EAST_CENTRAL.csv
+2025-04-29 07:22:03,114 - INFO - Saved merged data with 5877 records to singapore_weather_stations\S216_S216.csv
+2025-04-29 07:22:03,210 - INFO - Saved merged data with 5873 records to singapore_weather_stations\S217_S217.csv
+2025-04-29 07:22:03,308 - INFO - Saved merged data with 5876 records to singapore_weather_stations\S218_S218.csv
+2025-04-29 07:22:03,406 - INFO - Saved merged data with 5877 records to singapore_weather_stations\S219_S219.csv
+2025-04-29 07:22:03,499 - INFO - Saved merged data with 5875 records to singapore_weather_stations\S220_S220.csv
+2025-04-29 07:22:03,611 - INFO - Saved merged data with 5873 records to singapore_weather_stations\S221_S221.csv
+2025-04-29 07:22:03,712 - INFO - Saved merged data with 5871 records to singapore_weather_stations\S222_S222.csv
+2025-04-29 07:22:03,837 - INFO - Saved merged data with 5719 records to singapore_weather_stations\S223_S223.csv
+2025-04-29 07:22:03,936 - INFO - Saved merged data with 5875 records to singapore_weather_stations\S224_S224.csv
+2025-04-29 07:22:04,039 - INFO - Saved merged data with 5859 records to singapore_weather_stations\S226_S226.csv
+2025-04-29 07:22:04,150 - INFO - Saved merged data with 5875 records to singapore_weather_stations\S227_S227.csv
+2025-04-29 07:22:04,259 - INFO - Saved merged data with 5877 records to singapore_weather_stations\S228_S228.csv
+2025-04-29 07:22:04,381 - INFO - Saved merged data with 5876 records to singapore_weather_stations\S229_S229.csv
+2025-04-29 07:22:04,486 - INFO - Saved merged data with 5877 records to singapore_weather_stations\S230_S230.csv
+2025-04-29 07:22:04,608 - INFO - Saved merged data with 5849 records to singapore_weather_stations\S24_Upper_Changi_Road_North.csv
+2025-04-29 07:22:04,704 - INFO - Saved merged data with 5403 records to singapore_weather_stations\S33_Jurong_Pier_Road.csv
+2025-04-29 07:22:04,805 - INFO - Saved merged data with 5848 records to singapore_weather_stations\S35_Old_Toh_Tuck_Road.csv
+2025-04-29 07:22:04,900 - INFO - Saved merged data with 5283 records to singapore_weather_stations\S40_Mandai_Lake_Road.csv
+2025-04-29 07:22:05,018 - INFO - Saved merged data with 5823 records to singapore_weather_stations\S43_Kim_Chuan_Road.csv
+2025-04-29 07:22:05,126 - INFO - Saved merged data with 5051 records to singapore_weather_stations\S44_Nanyang_Avenue.csv
+2025-04-29 07:22:05,252 - INFO - Saved merged data with 5852 records to singapore_weather_stations\S50_Clementi_Road.csv
+2025-04-29 07:22:05,371 - INFO - Saved merged data with 5648 records to singapore_weather_stations\S60_Sentosa.csv
+2025-04-29 07:22:05,463 - INFO - Saved merged data with 5817 records to singapore_weather_stations\S64_Bukit_Panjang_Road.csv
+2025-04-29 07:22:05,552 - INFO - Saved merged data with 5542 records to singapore_weather_stations\S66_Kranji_Way.csv
+2025-04-29 07:22:05,652 - INFO - Saved merged data with 5420 records to singapore_weather_stations\S69_Upper_Peirce_Reservoir_Park.csv
+2025-04-29 07:22:05,742 - INFO - Saved merged data with 5529 records to singapore_weather_stations\S71_Kent_Ridge_Road.csv
+2025-04-29 07:22:05,835 - INFO - Saved merged data with 5741 records to singapore_weather_stations\S77_Alexandra_Road.csv
+2025-04-29 07:22:05,931 - INFO - Saved merged data with 5760 records to singapore_weather_stations\S78_Poole_Road.csv
+2025-04-29 07:22:06,021 - INFO - Saved merged data with 5043 records to singapore_weather_stations\S79_Somerset_Road.csv
+2025-04-29 07:22:06,124 - INFO - Saved merged data with 5818 records to singapore_weather_stations\S81_Punggol_Central.csv
+2025-04-29 07:22:06,216 - INFO - Saved merged data with 5692 records to singapore_weather_stations\S84_Simei_Avenue.csv
+2025-04-29 07:22:06,311 - INFO - Saved merged data with 5625 records to singapore_weather_stations\S88_Toa_Payoh_North.csv
+2025-04-29 07:22:06,399 - INFO - Saved merged data with 5768 records to singapore_weather_stations\S89_Tuas_Road.csv
+2025-04-29 07:22:06,483 - INFO - Saved merged data with 5794 records to singapore_weather_stations\S900_Seletar_Aerospace_View.csv
+2025-04-29 07:22:06,576 - INFO - Saved merged data with 5665 records to singapore_weather_stations\S90_Bukit_Timah_Road.csv
+2025-04-29 07:22:06,668 - INFO - Saved merged data with 5095 records to singapore_weather_stations\S94_Pasir_Ris_Street_51.csv
+2025-04-29 07:22:06,690 - INFO - Saved merged data with 549 records to singapore_weather_stations\S102_Semakau_Landfill.csv
+2025-04-29 07:22:06,724 - INFO - Saved merged data with 1304 records to singapore_weather_stations\S06_Paya_Lebar.csv
+2025-04-29 07:22:06,754 - INFO - Saved merged data with 1326 records to singapore_weather_stations\S106_Pulau_Ubin.csv
+2025-04-29 07:22:06,783 - INFO - Saved merged data with 1326 records to singapore_weather_stations\S29_Pasir_Ris_Drive_12.csv
+2025-04-29 07:22:06,804 - INFO - Saved merged data with 800 records to singapore_weather_stations\S92_South_Buona_Vista_Road.csv
+2025-04-29 07:22:06,805 - INFO - Data collection complete!

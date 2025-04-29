@@ -1,0 +1,138 @@
+datetime,location,latitude,longitude,flood,temperature_nearest_value,temperature_nearest_distance,temperature_nearest_station,rainfall_nearest_value,rainfall_nearest_distance,rainfall_nearest_station,humidity_nearest_value,humidity_nearest_distance,humidity_nearest_station,wind_direction_nearest_value,wind_direction_nearest_distance,wind_direction_nearest_station,wind_speed_nearest_value,wind_speed_nearest_distance,wind_speed_nearest_station
+2025-04-26T15:18:00,"Riverside Road (near Junction of Riverside Road and Admiralty Road) [Issued 14:40 hours]
+PUB
+@PUBsingapore
+·
+Apr 21
+[Risk of Flash Floods]
+
+Due to heavy rain, please avoid this location for the next 1 hour: Yishun Ave 7 (near intersection of Yishun St 22)",1.4304,103.8354,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:19:00,Jln Pokok Serunai,1.3136136,103.9365203,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:19:00,Alexandra Rd (opp Alexis Condo),1.2912258,103.8194806,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:17:00,Junction of Boon Lay Way and Corporation Rd,1.3246,103.7055,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:15:00,KG Java Rd (Newton Circus to CTE),1.3132646,103.8457791,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:14:00,Junction of Stevens Rd and Balmoral Rd,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:13:00,Orchard Rd (Paterson Rd to Mt Elizabeth),1.3036,103.8318,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:12:00,Cambridge Rd,1.3140414,103.8467845,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:12:00,Carlisle Rd,1.3141852,103.848291,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:06:00,Junction of Sunset Dr and Sunset Way Rd,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:02:00,Hillcrest Rd (Watten Rise to Dunearn Rd),1.3362791,103.8076496,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:02:00,Thomson Rd (Balestier Rd to Novena Rise),1.3203,103.8438,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:00:00,Junction of Toa Payoh Lor 1 and Toa Payoh Lor 2,1.334,103.8471,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T17:00:00,Junction of Lor Kismis and Toh Tuck Rise,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T16:56:00,Eng Kong Pl (Greenridge Cres to Eng Kong Gdn),1.3348802,103.7672269,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T16:48:00,Upp Paya Lebar Service Rd (Lim Teck Boo Rd to Rochdale Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T16:48:00,Jln Lokam (near Upp Paya Lebar Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T16:48:00,Thrift Dr (near Jln Usaha),1.3430148,103.8841896,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-20T16:36:00,KPE(ECP) after Buangkok East Dr Exit,1.303047,103.8782238,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-15T16:55:00,TPE (Punggol West Flyover),1.3984,103.9072,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-15T16:28:00,Yishun Ave 7 (near intersection of Yishun St 22),1.4304,103.8354,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T14:15:00,Jln Pokok Serunai,1.3136136,103.9365203,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T14:15:00,Bt Timah Rd (Wilby Rd to Blackmore Dr),1.3410733,103.7769981,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T14:12:00,Lor Ong Lye (near Lor Lew Lian),1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T14:11:00,Junction of Toa Payoh Lor 1 and Toa Payoh Lor 2,1.334,103.8471,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T14:11:00,Eng Kong Pl (Greenridge Cres to Eng Kong Gdn),1.3348802,103.7672269,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T14:03:00,Upp Paya Lebar Service Rd (Lim Teck Boo Rd to Rochdale Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T14:03:00,Jln Lokam (near Upp Paya Lebar Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T14:03:00,Thrift Dr (near Jln Usaha),1.3430148,103.8841896,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T13:56:00,TPE Slip Rd towards Punggol Rd,1.3984,103.9072,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T13:53:00,KPE(ECP) after Buangkok East Dr Exit,1.303047,103.8782238,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T13:51:00,TPE (Punggol West Flyover),1.3984,103.9072,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T13:49:00,Junction of Yishun Ave 2 and Yishun Ave 5,1.4304,103.8354,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-13T13:39:00,Yishun Avenue 7,1.4304,103.8354,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-04-05T18:35:00,Jln Arif,1.3675659,103.8838855,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:37:00,Thomson Rd (Balestier Rd to Novena Rise),1.3203,103.8438,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:33:00,Macpherson Rd OD (Siang Kuang Ave),1.3317211,103.8804473,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:29:00,Lor Gambir,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:28:00,Puay Hee Ave (near Siak Kew Ave),1.3302945,103.8703637,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:28:00,Siang Kuang Ave,1.3302071,103.8737736,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:28:00,Upp Paya Lebar Service Rd (Lim Teck Boo Rd to Rochdale Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:28:00,Jln Lokam (near Upp Paya Lebar Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:28:00,Thrift Dr (near Jln Usaha),1.3430148,103.8841896,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:23:00,Junction of Toa Payoh Lor 1 and Toa Payoh Lor 2,1.334,103.8471,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:20:00,Langsat Rd (Everitt Rd North to Lor 106 Changi),1.3644,103.9915,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:20:00,Lor 105 Changi,1.3644,103.9915,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:15:00,Marine Parade Ctrl,1.302,103.9069,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:15:00,Marine Parade Rd,1.302,103.9069,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-24T00:12:00,East Coast Rd,1.3085027,103.9098103,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-23T01:31:00,Mountbatten Road/Jalan Seaview,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-20T13:50:00,Mountbatten Road/Jalan Seaview,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-20T13:40:00,ECP (towards Changi Airport) after Bayshore Rd Exit,1.3644,103.9915,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-20T10:20:00,ECP (towards Changi Airport) at Tanah Merah Coast Road Entrance,1.3644,103.9915,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-20T07:40:00,PIE (towards Changi Airport) after TPE,1.3644,103.9915,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-19T14:45:00,Mountbatten Road / Jalan Seaview,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-08T15:20:00,Lor Buangkok (near Kampung Buangkok),1.3714086,103.8781507,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-08T15:20:00,"Sim Ave East (towards New Upper Changi Rd), from Lengkong Tiga to Jln Kembangan",1.3644,103.9915,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-08T15:10:00,Aljunied Rd under PIE Flyover,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-17T16:30:00,Braddell Road (towards Bartley) after Toa Payoh,1.334,103.8471,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-17T15:56:00,Lor Gambir,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T16:20:00,Happy Ave North,1.3310276,103.8808776,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T16:08:00,Wan Tho Ave (Pheng Geck Ave),1.3326952,103.8712658,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T16:08:00,Upp Paya Lebar Service Rd (Lim Teck Boo Rd to Rochdale Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T16:08:00,Jln Lokam (near Upp Paya Lebar Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T16:08:00,Thrift Dr (near Jln Usaha),1.3430148,103.8841896,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T16:06:00,Lor Gambir,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T16:04:00,Puay Hee Ave (near Siak Kew Ave),1.3302945,103.8703637,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T16:04:00,Siang Kuang Ave,1.3302071,103.8737736,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-02-15T15:54:00,Junction of Toa Payoh Lor 1 and Toa Payoh Lor 2,1.334,103.8471,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-01-10T21:15:00,Jln Pokok Serunai,1.3136136,103.9365203,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-01-10T20:02:00,Jln Seaview,1.2990068,103.8945183,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-01-10T20:02:00,Junction of Mtbatten Rd and TG Katong Rd South,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-01-10T19:23:00,Jln Seaview,1.2990068,103.8945183,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-01-10T19:23:00,Junction of Mtbatten Rd and TG Katong Rd South,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:57:00,Thomson Rd (Balestier Rd to Novena Rise),1.3203,103.8438,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:56:00,Queen's Rd,1.3209332,103.8095842,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:54:00,Puay Hee Ave (near Siak Kew Ave),1.3302945,103.8703637,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:54:00,Siang Kuang Ave,1.3302071,103.8737736,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:52:00,Junction of Sunset Dr and Sunset Ter,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:50:00,Junction of Sunset Dr and Sunset Way Rd,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:50:00,Hillcrest Rd (Watten Rise to Dunearn Rd),1.3362791,103.8076496,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:50:00,Upp Paya Lebar Service Rd (Lim Teck Boo Rd to Rochdale Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:50:00,Jln Lokam (near Upp Paya Lebar Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:50:00,Thrift Dr (near Jln Usaha),1.3430148,103.8841896,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:49:00,Craig Rd (Duxton Rd to TG Pagar Rd),1.2774409,103.8431101,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:48:00,Junction of Bishan St 21 and Jln Pemimpin,1.3526,103.8352,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:48:00,Upp Hokkien St,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:47:00,Bt Timah Rd (Wilby Rd to Blackmore Dr),1.3410733,103.7769981,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:47:00,Dunearn Rd (Yarwood Ave to Binjai Pk),1.3197922,103.8293421,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:45:00,Junction of Lor Kismis and Toh Tuck Rise,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:45:00,Eng Kong Pl (Greenridge Cres to Eng Kong Gdn),1.3348802,103.7672269,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:45:00,Junction of Toa Payoh Lor 1 and Toa Payoh Lor 2,1.334,103.8471,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:43:00,Lor Gambir,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-29T16:39:00,"Choa Chu Kang Ave 1 (towards Choa Chu Kang Way, Choa Chu kang Dr to Teck Whye Lane)",1.384,103.747,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-16T15:18:00,Bedok North Ave 3 (Bedok Reservoir MRT),1.3236,103.9273,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-16T15:18:00,Jln Pokok Serunai,1.3136136,103.9365203,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-16T15:17:00,Upp Paya Lebar Service Rd (Lim Teck Boo Rd to Rochdale Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-16T15:17:00,Jln Lokam (near Upp Paya Lebar Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-16T15:17:00,Thrift Dr (near Jln Usaha),1.3430148,103.8841896,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-16T15:11:00,Lor Gambir,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-11T19:12:00,Upp Paya Lebar Service Rd (Lim Teck Boo Rd to Rochdale Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-11T19:12:00,Jln Lokam (near Upp Paya Lebar Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-11T19:12:00,Thrift Dr (near Jln Usaha),1.3430148,103.8841896,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-03T19:32:00,Upp East Coast Rd (near Parbury Ave),1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-03T19:23:00,Jln Pokok Serunai,1.3136136,103.9365203,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-03T19:22:00,Junction of Swan Lake Ave and Jln Terang Bulan,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-12-03T19:09:00,Lor Gambir,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-29T06:30:00,Bt Timah Rd (Wilby Rd to Blackmore Dr),1.3410733,103.7769981,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-29T06:27:00,Dunearn Rd (Yarwood Ave to Binjai Pk),1.3197922,103.8293421,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-29T06:13:00,Junction of Neo Pee Teck Lane and Pasir Panjang Rd,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-29T06:03:00,Jln Boon Lay (Enterprise Rd to International Rd),1.3246,103.7055,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-24T16:43:00,Jln Boon Lay (Enterprise Rd to International Rd),1.3246,103.7055,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-23T18:42:00,Lor Gambir,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T15:22:00,Jln Nipah (cul-de-sac),1.3261369,103.9530576,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T15:22:00,Jln Seaview,1.2990068,103.8945183,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T15:22:00,Junction of Mtbatten Rd and TG Katong Rd South,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T15:16:00,"Choa Chu Kang Ave 1 (towards Choa Chu Kang Way, Choa Chu kang Dr to Teck Whye Lane)",1.384,103.747,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T15:14:00,Aljunied Rd under PIE Flyover,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T15:12:00,Junction of Upp Changi Rd and Bedok Ave 4,1.3644,103.9915,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T15:04:00,Serangoon Ave 2 (Boundary Rd to Serangoon Ave 3),1.3554,103.8679,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T15:00:00,Macpherson Rd OD (Siang Kuang Ave),1.3317211,103.8804473,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:58:00,Upp Paya Lebar Service Rd (Lim Teck Boo Rd to Rochdale Rd),1.3178,103.8918,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:58:00,Lor Gambir,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:58:00,Serangoon Ave 2 (Boundary Rd to Serangoon Ave 3),1.3554,103.8679,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:57:00,Colchester Grove,1.3586498,103.8674903,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:57:00,Junction of Macpherson Rd and Playfair Rd,1.3521,103.8198,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:55:00,Jln Chengkek,1.3308149,103.8845592,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:54:00,Jln Gembira,1.3323482,103.8808753,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:54:00,Wan Tho Ave (Pheng Geck Ave),1.3326952,103.8712658,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024-11-22T14:53:00,Mt Vernon Rd (near Bartley Rd),1.3399252,103.8773067,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
