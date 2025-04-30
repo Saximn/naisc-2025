@@ -43,7 +43,7 @@ export default function Dashboard() {
       severity: 'medium',
       location: 'Lower Kent Ridge Road',
       timestamp: new Date(Date.now() - 1000 * 60 * 30).toISOString(),
-      details: 'Rising water levels, 76% confidence'
+      details: 'High rainfall levels, 76% confidence'
     }
   ])
 

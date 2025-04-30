@@ -9,7 +9,7 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ activeSection, onFilterChange }: SidebarProps) {
-  const [filter, setFilter] = useState('all')
+  const [filter, setFilter] = useState('crime')
 
   const handleFilterChange = (newFilter: string) => {
     setFilter(newFilter)
@@ -32,16 +32,6 @@ export default function Sidebar({ activeSection, onFilterChange }: SidebarProps)
               Dashboard
             </Link>
           </li>
-          <li>
-            <Link href="/analytics" className={`block py-2 px-4 rounded ${activeSection === 'analytics' ? 'bg-blue-700' : 'hover:bg-blue-700'}`}>
-              Analytics
-            </Link>
-          </li>
-          <li>
-            <Link href="/settings" className={`block py-2 px-4 rounded ${activeSection === 'settings' ? 'bg-blue-700' : 'hover:bg-blue-700'}`}>
-              Settings
-            </Link>
-          </li>
         </ul>
       </nav>
 
@@ -49,14 +39,6 @@ export default function Sidebar({ activeSection, onFilterChange }: SidebarProps)
         <div className="mb-8">
           <h3 className="text-sm uppercase tracking-wider mb-3">Filter Incidents</h3>
           <ul className="space-y-2">
-            <li>
-              <button 
-                onClick={() => handleFilterChange('all')}
-                className={`w-full text-left py-1 px-3 rounded ${filter === 'all' ? 'bg-blue-600' : 'hover:bg-blue-600'}`}
-              >
-                All Incidents
-              </button>
-            </li>
             <li>
               <button 
                 onClick={() => handleFilterChange('crime')}

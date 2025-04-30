@@ -1,0 +1,73 @@
+{
+    "model_algorithm": "predict_analysis",
+    "model_type": "PyTorch",
+    "runtime": "pytorch_1.8.0-cuda_10.2-py_3.7-ubuntu_18.04-x86_64",
+    "metrics": {
+      "accuracy": 0.95
+    },
+    "means": [0.0],
+    "stds": [1.0],
+    "apis": [
+      {
+        "url": "/",
+        "method": "post",
+        "request": {
+          "Content-type": "application/json",
+          "data": {
+            "type": "object",
+            "properties": {
+              "values": {
+                "type": "array",
+                "description": "Input data with shape 78x110x24x5"
+              }
+            }
+          }
+        },
+        "response": {
+          "Content-type": "application/json",
+          "data": {
+            "type": "object",
+            "properties": {
+              "prediction": {
+                "type": "array",
+                "description": "Output prediction with shape 78x110x1"
+              },
+              "shape": {
+                "type": "array",
+                "description": "Shape of the output array [78, 110, 1]"
+              },
+              "min": {
+                "type": "number",
+                "description": "Minimum value in the prediction"
+              },
+              "max": {
+                "type": "number",
+                "description": "Maximum value in the prediction"
+              },
+              "mean": {
+                "type": "number",
+                "description": "Mean value of the prediction"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "dependencies": [
+      {
+        "installer": "pip",
+        "packages": [
+          {
+            "package_name": "numpy",
+            "package_version": "1.19.5",
+            "restraint": "ATLEAST"
+          },
+          {
+            "package_name": "torch",
+            "package_version": "1.8.0",
+            "restraint": "EXACT"
+          }
+        ]
+      }
+    ]
+  }
