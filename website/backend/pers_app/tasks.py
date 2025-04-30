@@ -3,8 +3,10 @@ import logging
 from django.conf import settings
 from datetime import datetime, timedelta
 from django.utils import timezone
+import pytz
 import time
-from celery.result import AsyncResult
+from django.db.models import Count
+from django.db.models.functions import TruncHour
 
 logger = logging.getLogger(__name__)
 
@@ -40,129 +42,121 @@ def fetch_weather_data(self, date_time=None):
         raise
 
 @shared_task(bind=True)
-def backfill_missing_data(self, hours=24):
+def check_and_backfill_missing_hours(self, hours=24):
     """
-    Task to fetch data for the specified number of past hours
-    
-    Parameters:
-    - hours: Number of hours to backfill (default: 24)
-    
-    Returns:
-    - Dictionary with summary of operations
-    """
-    from pers_app.services.api_service import backfill_weather_data
-    
-    task_id = self.request.id
-    logger.info(f"Task {task_id}: Starting backfill for the last {hours} hours")
-    
-    try:
-        # Use the backfill function from api_service
-        results = backfill_weather_data(hours)
-        
-        logger.info(f"Task {task_id}: Backfill completed - "
-                   f"{results['successful_fetches']} successful, "
-                   f"{results['failed_fetches']} failed")
-        return results
-    except Exception as e:
-        logger.error(f"Task {task_id}: Error during backfill: {str(e)}")
-        raise
-
-@shared_task(bind=True)
-def check_and_fetch_data_if_needed(self, hours=24, proceed_with_prediction=True):
-    """
-    Check if we have enough data for the specified hours, and fetch it if needed
-    
-    Parameters:
-    - hours: Number of hours of data needed
-    - proceed_with_prediction: Whether to run prediction task after fetching
+    Check for missing hours in the last 24 hours and backfill them
     
     Returns:
     - Dictionary with results
     """
     from pers_app.models import WeatherReading
-    from pers_app.services.api_service import round_down_to_hour
+    from pers_app.services.api_service import round_down_to_hour, get_singapore_time
     
     task_id = self.request.id
-    logger.info(f"Task {task_id}: Checking if we have data for the last {hours} hours")
+    logger.info(f"Task {task_id}: Checking for missing hours in the last {hours} hours")
     
-    # Get the current time and calculate the cutoff
-    end_time = round_down_to_hour()  # Current hour, rounded down
-    start_time = end_time - timedelta(hours=hours)
+    # Get Singapore timezone
+    sg_tz = pytz.timezone('Asia/Singapore')
     
-    # Count how many distinct hours we actually have
-    distinct_hours = WeatherReading.objects.filter(
-        timestamp__gte=start_time,
-        timestamp__lte=end_time
-    ).dates('timestamp', 'hour').count()
+    # Calculate current hour (rounded down)
+    current_hour = round_down_to_hour(timezone.now())
     
-    logger.info(f"Task {task_id}: Found data for {distinct_hours} out of {hours} hours")
+    # Calculate expected hours (oldest to newest)
+    expected_hours = []
+    for i in range(hours, 0, -1):  # Count backwards from 24 to 1
+        hour = current_hour - timedelta(hours=i)
+        expected_hours.append(hour)
     
-    if distinct_hours < hours:
-        # We're missing some data, need to backfill
-        missing_hours = hours - distinct_hours
-        logger.info(f"Task {task_id}: Missing data for {missing_hours} hours, starting backfill")
-        
-        # If we have some data but not all, only backfill what we need
-        if distinct_hours > 0:
-            backfill_task = backfill_missing_data.s(missing_hours)
-        else:
-            # If we have no data, backfill everything
-            backfill_task = backfill_missing_data.s(hours)
-        
-        if proceed_with_prediction:
-            # Chain tasks: first backfill, then make prediction
-            task_chain = chain(backfill_task, make_weather_prediction.s())
-            result = task_chain()
-            return {"status": "Backfill and prediction initiated", "task_id": result.id}
-        else:
-            # Just backfill without prediction
-            result = backfill_task.delay()
-            return {"status": "Backfill initiated", "task_id": result.id}
+    # Query existing hours in database using TruncHour instead of dates
+    existing_hours_query = WeatherReading.objects.filter(
+        timestamp__gte=expected_hours[0],
+        timestamp__lte=current_hour
+    ).annotate(
+        hour=TruncHour('timestamp')
+    ).values('hour').annotate(
+        count=Count('id')
+    ).values_list('hour', flat=True)
     
-    elif proceed_with_prediction:
-        # We have enough data, proceed with prediction
-        result = make_weather_prediction.delay()
-        return {"status": "Prediction initiated", "task_id": result.id}
+    # Convert to set of datetimes for easy comparison
+    existing_hours = set(existing_hours_query)
     
-    return {"status": "Data check complete", "hours_found": distinct_hours}
+    # Find missing hours
+    missing_hours = []
+    for hour in expected_hours:
+        # Round to exact hour to ensure correct comparison
+        hour_exact = hour.replace(minute=0, second=0, microsecond=0)
+        if hour_exact not in existing_hours:
+            missing_hours.append(hour_exact)
+    
+    logger.info(f"Task {task_id}: Found {len(missing_hours)} missing hours out of {hours}")
+    
+    # If no missing hours, we're done
+    if not missing_hours:
+        return {
+            "status": "complete",
+            "missing_hours": 0,
+            "backfilled_hours": 0
+        }
+    
+    # Backfill missing hours
+    successful_backfills = 0
+    errors = []
+    
+    for hour in missing_hours:
+        try:
+            # Convert to Singapore time string
+            hour_str = get_singapore_time(hour, include_timezone=False)
+            logger.info(f"Task {task_id}: Backfilling hour {hour_str}")
+            
+            # Fetch data for this hour - DIRECTLY call the function, not the task
+            from pers_app.services.api_service import fetch_and_store_weather_data
+            result = fetch_and_store_weather_data(hour_str)
+            
+            if result and not any(result.get("errors", [])):
+                successful_backfills += 1
+            else:
+                errors.append(f"Error backfilling {hour_str}: {result.get('errors')}")
+            
+            # Add a small delay to avoid overwhelming the API
+            time.sleep(1)
+            
+        except Exception as e:
+            logger.error(f"Task {task_id}: Exception backfilling {hour}: {str(e)}")
+            errors.append(f"Exception backfilling {hour}: {str(e)}")
+    
+    return {
+        "status": "complete" if successful_backfills == len(missing_hours) else "partial",
+        "missing_hours": len(missing_hours),
+        "backfilled_hours": successful_backfills,
+        "errors": errors
+    }
 
 @shared_task(bind=True)
-def make_weather_prediction(self):
+def make_weather_prediction(self, backfill_result=None):
     """
     Task to process the last 24 hours of data and make a prediction
-    First checks if enough data exists, fetches it if needed
+    Can be chained after the backfill task
     """
     from pers_app.services.data_preprocessor import get_model_input_data
     from pers_app.services.modelarts_service import ModelArtsService
-    from pers_app.models import ModelPrediction, WeatherReading
+    from pers_app.models import ModelPrediction
     
     task_id = self.request.id
     logger.info(f"Task {task_id}: Starting weather prediction task")
     
     try:
-        # Check if we have data for the last 24 hours
-        end_time = timezone.now()
-        start_time = end_time - timedelta(hours=24)
+        # Log the backfill result if provided (from chaining)
+        if backfill_result:
+            logger.info(f"Task {task_id}: Using backfill result: {backfill_result}")
         
-        readings_count = WeatherReading.objects.filter(
-            timestamp__gte=start_time,
-            timestamp__lte=end_time
-        ).count()
-        
-        if readings_count == 0:
-            logger.warning(f"Task {task_id}: No data found for the last 24 hours, initiating backfill")
-            # This will backfill and then recursively call this task again
-            return check_and_fetch_data_if_needed(hours=24, proceed_with_prediction=True)
-        
-        # Get the preprocessed grid data
-        logger.info(f"Task {task_id}: Preprocessing data for model input")
+        # Get preprocessed data for the model
+        logger.info(f"Task {task_id}: Getting model input data")
         grid_data = get_model_input_data()
         
         if grid_data is None:
-            logger.warning(f"Task {task_id}: Failed to preprocess data, possibly insufficient data")
-            # Try to backfill data and retry
-            return check_and_fetch_data_if_needed(hours=24, proceed_with_prediction=True)
-        
+            logger.error(f"Task {task_id}: Failed to get model input data")
+            return {"error": "Failed to get model input data"}
+            
         # Call ModelArts API
         logger.info(f"Task {task_id}: Sending data to ModelArts for prediction")
         model_service = ModelArtsService(settings.MODELARTS_ENDPOINT_URL)
@@ -187,34 +181,68 @@ def make_weather_prediction(self):
             
     except Exception as e:
         logger.error(f"Task {task_id}: Exception in make_weather_prediction: {str(e)}")
-        raise
+        return {"error": str(e)}
 
 @shared_task(bind=True)
-def generate_hourly_prediction(self):
+def complete_hourly_workflow(self):
     """
-    Task that runs every hour to ensure we have the latest prediction
-    This combines fetching the latest hour of data and then making a prediction
+    Complete hourly workflow - run backfill then prediction in sequence
     """
     task_id = self.request.id
-    logger.info(f"Task {task_id}: Starting hourly prediction workflow")
+    logger.info(f"Task {task_id}: Starting complete hourly workflow")
+    
+    # Create a chain of tasks that will run in sequence
+    workflow = chain(
+        # First check and backfill missing hours
+        check_and_backfill_missing_hours.s(24),
+        # Then run prediction (which will receive the result of the previous task)
+        make_weather_prediction.s()
+    )
+    
+    # Execute the chain
+    result = workflow()
+    
+    return {
+        "status": "Hourly workflow initiated",
+        "chain_id": result.id
+    }
+
+@shared_task(bind=True)
+def fetch_current_hour_and_predict(self):
+    """
+    Task that runs every hour: fetch current hour data, then run backfill and prediction
+    """
+    from pers_app.services.api_service import get_hourly_timestamp
+    
+    task_id = self.request.id
+    logger.info(f"Task {task_id}: Starting hourly update")
     
     try:
         # 1. Fetch latest hour's data
-        fetch_task = fetch_weather_data.delay()
+        hour_str = get_hourly_timestamp()
+        logger.info(f"Task {task_id}: Fetching latest hour data: {hour_str}")
         
-        # 2. Wait for fetch to complete (with timeout)
-        fetch_result = AsyncResult(fetch_task.id)
-        fetch_result.get(timeout=300)  # 5 minutes timeout
+        # Call directly, not as a task
+        from pers_app.services.api_service import fetch_and_store_weather_data
+        result = fetch_and_store_weather_data(hour_str)
         
-        # 3. Make prediction with the updated data
-        logger.info(f"Task {task_id}: Data fetch complete, making prediction")
-        prediction_task = make_weather_prediction.delay()
+        logger.info(f"Task {task_id}: Latest hour fetch complete: {result}")
+        
+        # 2. Schedule backfill and prediction as a chain
+        workflow = chain(
+            check_and_backfill_missing_hours.s(24),
+            make_weather_prediction.s()
+        )
+        
+        # Execute the chain
+        chain_result = workflow()
         
         return {
-            "status": "Hourly prediction workflow initiated",
-            "fetch_task_id": fetch_task.id,
-            "prediction_task_id": prediction_task.id
+            "status": "Hourly update in progress",
+            "current_hour_data": result,
+            "chain_id": chain_result.id
         }
+        
     except Exception as e:
-        logger.error(f"Task {task_id}: Error in hourly prediction workflow: {str(e)}")
+        logger.error(f"Task {task_id}: Error in hourly update: {str(e)}")
         raise

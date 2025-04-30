@@ -93,8 +93,9 @@ def get_last_24_hours_data():
     - Pandas DataFrame with weather data
     """
     from pers_app.models import WeatherReading
-    
-    end_time = datetime.now()
+    from django.utils import timezone
+
+    end_time = timezone.now()
     start_time = end_time - timedelta(hours=24)
     
     # Query readings for the last 24 hours
@@ -144,6 +145,7 @@ def standardize_and_convert_wind_vectors(df):
     
     # Convert wind direction and speed to u, v components
     theta = np.deg2rad(df['wind_direction'])
+    df = df.copy()  # Avoid SettingWithCopyWarning
     df['wind_u'] = df['wind_speed'] * np.sin(theta)
     df['wind_v'] = df['wind_speed'] * np.cos(theta)
     

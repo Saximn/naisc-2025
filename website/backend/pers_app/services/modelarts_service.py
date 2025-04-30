@@ -1,3 +1,5 @@
+import base64
+import io
 import requests
 import json
 import logging
@@ -42,10 +44,24 @@ class ModelArtsService:
                 logger.error(f"Invalid grid data shape: {grid_data.shape}, expected (78, 110, 24, 5)")
                 return None
                 
-            # Convert numpy array to list for JSON serialization
+
+
+            # Assume grid_data is a NumPy array with shape (78, 110, 24, 5)
+
+            grid_data = grid_data.astype(np.float16)  # Convert to float16
+            buffer = io.BytesIO()
+            np.save(buffer, grid_data, allow_pickle=False)
+            buffer.seek(0)
+            b64_encoded = base64.b64encode(buffer.read()).decode('utf-8')
+
+            # Construct the request payload
             data = {
-                "values": grid_data.tolist()
+                "npy_base64": b64_encoded
             }
+            # # Convert numpy array to list for JSON serialization
+            # data = {
+            #     "values": grid_data.tolist()
+            # }
             
             # Create request with authentication
             method = 'POST'
@@ -55,7 +71,9 @@ class ModelArtsService:
             
             # Create HTTP request for signing
             request = signer.HttpRequest(method, self.endpoint_url, headers, json.dumps(data))
-            
+
+            logger.info(f"Size: {sys.getsizeof(request.body)} bytes, {len(json.dumps(data).encode())} bytes")
+
             # Sign the request with AK/SK
             sig = signer.Signer()
             sig.Key = self.ak

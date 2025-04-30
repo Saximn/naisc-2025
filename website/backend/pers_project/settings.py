@@ -134,14 +134,12 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = 'UTC'
 
 # Beat schedule for periodic tasks
+from celery.schedules import crontab
+
 CELERY_BEAT_SCHEDULE = {
-    'fetch-weather-data-hourly': {
-        'task': 'pers_app.tasks.fetch_weather_data',
-        'schedule': 3600.0,  # Run every hour
-    },
-    'make-weather-prediction-hourly': {
-        'task': 'pers_app.tasks.make_weather_prediction',
-        'schedule': 3600.0,  # Run every hour
+    'hourly-update': {
+        'task': 'pers_app.tasks.fetch_current_hour_and_predict',
+        'schedule': crontab(minute=1),  # Run 5 minutes past each hour
     },
 }
 
