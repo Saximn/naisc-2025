@@ -147,11 +147,5 @@ Our system delivers:
 - Stronger community resilience
 - Data-driven policy making
 
-## Team Members
-- [Add team member names and roles here]
-
-## License
-This project is part of the AI Student Developer Contest (AISDC) 2025. All rights reserved.
-
 ---
 *For more detailed technical documentation, please refer to the `/docs` directory.*
