@@ -1,4 +1,5 @@
 import base64
+import zstandard as ztsd
 import io
 import requests
 import json
@@ -48,15 +49,22 @@ class ModelArtsService:
 
             # Assume grid_data is a NumPy array with shape (78, 110, 24, 5)
 
-            grid_data = grid_data.astype(np.float16)  # Convert to float16
             buffer = io.BytesIO()
             np.save(buffer, grid_data, allow_pickle=False)
             buffer.seek(0)
-            b64_encoded = base64.b64encode(buffer.read()).decode('utf-8')
+
+            cctx = ztsd.ZstdCompressor(level = 22)
+            compressed_data = cctx.compress(buffer.read())
+
+            b64_encoded = base64.b64encode(compressed_data).decode('utf-8')
+
+            # save to file for debugging
+            with open("b64_encoded.txt", "w") as f:
+                f.write(b64_encoded)
 
             # Construct the request payload
             data = {
-                "npy_base64": b64_encoded
+                "npy_base64_zstd": b64_encoded
             }
             # # Convert numpy array to list for JSON serialization
             # data = {
