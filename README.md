@@ -72,6 +72,11 @@ Our solution is built on Huawei Cloud with:
 - Automated model retraining
 - Scalable infrastructure
 
+### System Architecture Diagram
+![Solution Architecture](./assets/solution-architecture.png)
+
+*Figure 1: High-level architecture of our predictive emergency response system*
+
 ## Methodology
 
 ### Fire and Flood Prediction
