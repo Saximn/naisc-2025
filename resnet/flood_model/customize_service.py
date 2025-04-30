@@ -7,6 +7,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from model_service.pytorch_model_service import PTServingBaseService
+import zstandard as ztsd
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -132,12 +133,16 @@ class ForecastService(PTServingBaseService):
             preprocessed_data = {}
             
             # Handle base64-encoded .npy input
-            if 'npy_base64' in data:
-                logger.info("Detected npy_base64 input")
+            if 'npy_base64_zstd' in data:
+                logger.info("Detected npy_base64_zstd input")
 
                 # Decode base64 and load the array
-                decoded = base64.b64decode(data['npy_base64'])
-                frame_np = np.load(io.BytesIO(decoded), allow_pickle=False)
+                decoded = base64.b64decode(data['npy_base64_zstd'])
+
+                dctx = ztsd.ZstdDecompressor()
+
+                decompressed = dctx.decompress(decoded)
+                frame_np = np.load(io.BytesIO(decompressed), allow_pickle=False)
             else:
                 # Handle JSON input
                 if not any(isinstance(val, dict) for val in data.values()):

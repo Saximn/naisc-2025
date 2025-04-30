@@ -8,7 +8,7 @@ from .serializers import (
     WeatherReadingSerializer,
     ModelPredictionSerializer
 )
-from .tasks import fetch_weather_data, make_weather_prediction
+from .tasks import fetch_weather_data, make_weather_prediction, complete_hourly_workflow
 from datetime import datetime
 import logging
 
@@ -98,7 +98,7 @@ class WeatherManagementViewSet(viewsets.ViewSet):
         """Trigger prediction manually"""
         try:
             # For immediate response, run in background
-            task = make_weather_prediction.delay()
+            task = complete_hourly_workflow.delay()
             return Response({
                 "status": "Prediction initiated",
                 "task_id": task.id
