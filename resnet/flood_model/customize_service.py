@@ -105,27 +105,15 @@ class ForecastService(PTServingBaseService):
             checkpoint = torch.load(model_file, map_location=self.device)
             if 'model_state_dict' in checkpoint:
                 self.model.load_state_dict(checkpoint['model_state_dict'])
+                normalizer = checkpoint.get('normalizer', None)
+                if normalizer:
+                    self.normalizer = ChannelNormalizer(mean=normalizer['mean'], std=normalizer['std'])
+                else:
+                    logger.warning("No normalizer found in checkpoint, using default values")
+                    self.normalizer = ChannelNormalizer(mean=[1], std=[0])
             else:
                 self.model.load_state_dict(checkpoint)
             self.model.eval()
-            
-            # Load normalization parameters from config file
-            config_file = os.path.join(dir_path, "config.json")
-            if os.path.exists(config_file):
-                logger.info(f"Loading config from: {config_file}")
-                with open(config_file, 'r') as f:
-                    config = json.load(f)
-                
-                means = config.get('means', [0.0])
-                stds = config.get('stds', [1.0])
-            else:
-                # Use default normalization if config is not available
-                logger.warning("Config file not found, using default normalization parameters")
-                means = [0.0]
-                stds = [1.0]
-            
-            logger.info(f"Normalization parameters - means: {means}, stds: {stds}")
-            self.normalizer = ChannelNormalizer(mean=means, std=stds)
             
         except Exception as e:
             logger.error(f"Error loading model: {str(e)}")

@@ -1,7 +1,9 @@
 import requests
 import time
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
+from django.utils import timezone
+import pytz
 
 logger = logging.getLogger(__name__)
 
@@ -12,6 +14,76 @@ API_ENDPOINTS = {
     "wind_direction": "https://api-open.data.gov.sg/v2/real-time/api/wind-direction",
     "wind_speed": "https://api-open.data.gov.sg/v2/real-time/api/wind-speed",
 }
+
+def round_down_to_hour(dt=None):
+    """
+    Round down a datetime to the nearest hour (00:00)
+    If dt is None, use current time
+    Returns a timezone-aware datetime
+    """
+    if dt is None:
+        dt = timezone.now()
+    
+    # Ensure datetime is timezone-aware
+    if dt.tzinfo is None:
+        dt = timezone.make_aware(dt)
+    
+    # Round down to nearest hour
+    rounded = dt.replace(minute=0, second=0, microsecond=0)
+    return rounded
+
+def get_singapore_time(dt=None, include_timezone=False):
+    """
+    Convert a datetime to Singapore time
+    If dt is None, use current time
+    
+    Parameters:
+    - dt: datetime object or None
+    - include_timezone: Whether to include +08:00 in the output
+    
+    Returns:
+    - Formatted string in Singapore timezone
+    """
+    if dt is None:
+        dt = timezone.now()
+    
+    # Ensure datetime is timezone-aware
+    if dt.tzinfo is None:
+        dt = timezone.make_aware(dt)
+    
+    # Convert to Singapore timezone
+    singapore_tz = pytz.timezone('Asia/Singapore')
+    singapore_time = dt.astimezone(singapore_tz)
+    
+    # Format as ISO 8601 with or without timezone info
+    if include_timezone:
+        return singapore_time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+    else:
+        return singapore_time.strftime("%Y-%m-%dT%H:%M:%S")
+
+def get_hourly_timestamp(dt=None):
+    """
+    Get the most recent completed hour timestamp in Singapore time
+    """
+    # Round down to hour
+    rounded = round_down_to_hour(dt)
+    
+    # Convert to Singapore time string
+    return get_singapore_time(rounded)
+
+def get_last_n_hours(hours=24):
+    """
+    Get a list of the last N hourly timestamps in Singapore time
+    Returns oldest first (ascending order)
+    """
+    current = round_down_to_hour()
+    timestamps = []
+    
+    for i in range(hours, 0, -1):  # Count backwards from hours to 1
+        timestamp = current - timedelta(hours=i)
+        timestamps.append(get_singapore_time(timestamp))
+    
+    return timestamps
 
 def fetch_api_data(api_type, date_time, max_retries=3, delay=1):
     """
@@ -31,11 +103,15 @@ def fetch_api_data(api_type, date_time, max_retries=3, delay=1):
         "date": date_time
     }
     
+    logger.info(f"Fetching {api_type} data for {date_time}")
+    
     for attempt in range(max_retries):
         try:
+            logger.info(f'Parameters: {params}')
             response = requests.get(url, params=params, timeout=15)
             
             if response.status_code == 200:
+                logger.info(f"Successfully fetched {api_type} data")
                 return response.json()
             elif response.status_code == 404:
                 logger.warning(f"No {api_type} data available for {date_time}")
@@ -125,19 +201,28 @@ def fetch_and_store_weather_data(datetime_str=None):
     
     Parameters:
     - datetime_str: ISO format datetime string (YYYY-MM-DDTHH:MM:SS)
-                   If None, use current time
+                   If None, use current time rounded to the hour
     
     Returns:
     - Dictionary with summary of operations
     """
-    from weather_app.models import WeatherStation, WeatherReading
+    from pers_app.models import WeatherStation, WeatherReading
     
     if not datetime_str:
-        # Format current time as ISO 8601
-        datetime_str = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+        # Use the most recent completed hour
+        datetime_str = get_hourly_timestamp()
     
     # Parse the timestamp
-    timestamp = datetime.fromisoformat(datetime_str.replace('Z', '+00:00'))
+    try:
+        # Ensure timestamp is timezone-aware
+        timestamp = timezone.datetime.fromisoformat(datetime_str.replace('Z', '+00:00'))
+        if timestamp.tzinfo is None:
+            # If it's naive, make it aware
+            timestamp = timezone.make_aware(timestamp)
+    except Exception as e:
+        logger.error(f"Error parsing timestamp: {e}")
+        # Fallback to current hour
+        timestamp = round_down_to_hour()
     
     # Store results
     results = {
@@ -189,5 +274,47 @@ def fetch_and_store_weather_data(datetime_str=None):
         
         except Exception as e:
             results["errors"].append(f"Error processing {api_type}: {str(e)}")
+    
+    return results
+
+def backfill_weather_data(hours=24):
+    """
+    Backfill weather data for the specified number of hours
+    
+    Parameters:
+    - hours: Number of hours to backfill
+    
+    Returns:
+    - Dictionary with summary of operations
+    """
+    results = {
+        "hours_requested": hours,
+        "hours_processed": 0,
+        "successful_fetches": 0,
+        "failed_fetches": 0,
+        "errors": []
+    }
+    
+    # Get hourly timestamps for the last N hours
+    timestamps = get_last_n_hours(hours)
+    
+    for timestamp in timestamps:
+        try:
+            hour_result = fetch_and_store_weather_data(timestamp)
+            results["hours_processed"] += 1
+            
+            if hour_result and not any(hour_result.get("errors", [])):
+                results["successful_fetches"] += 1
+            else:
+                results["failed_fetches"] += 1
+                if hour_result and hour_result.get("errors"):
+                    results["errors"].extend(hour_result.get("errors"))
+                    
+            # Add a small delay to avoid overwhelming the API
+            time.sleep(1)
+            
+        except Exception as e:
+            results["failed_fetches"] += 1
+            results["errors"].append(f"Exception for {timestamp}: {str(e)}")
     
     return results
