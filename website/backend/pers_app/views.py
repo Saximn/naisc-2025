@@ -63,6 +63,26 @@ class WeatherManagementViewSet(viewsets.ViewSet):
                 "error": str(e)
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
+    # @action(detail=False, methods=['post'])
+    # def fetch_data(self, request):
+    #     """Trigger data fetching manually"""
+    #     date_time = request.data.get('date_time', datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))
+        
+    #     try:
+    #         # Run synchronously for testing
+    #         from pers_app.services.api_service import fetch_and_store_weather_data
+    #         result = fetch_and_store_weather_data(date_time)
+            
+    #         return Response({
+    #             "status": "Data fetch completed",
+    #             "result": result
+    #         })
+    #     except Exception as e:
+    #         logger.error(f"Error triggering data fetch: {str(e)}")
+    #         return Response({
+    #             "error": str(e)
+    #         }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
     @action(detail=False, methods=['post'])
     def make_prediction(self, request):
         """Trigger prediction manually"""

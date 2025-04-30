@@ -92,7 +92,7 @@ def get_last_24_hours_data():
     Returns:
     - Pandas DataFrame with weather data
     """
-    from weather_app.models import WeatherReading
+    from pers_app.models import WeatherReading
     
     end_time = datetime.now()
     start_time = end_time - timedelta(hours=24)

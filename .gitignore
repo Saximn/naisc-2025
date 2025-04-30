@@ -1,0 +1,9 @@
+# Ignore environment folders
+env/
+venv/
+ubuntu_env/
+
+node_modules/
+
+# Ignore .env files
+.env
