@@ -1,3 +1,5 @@
+import base64
+import io
 import os
 import json
 import logging
@@ -129,68 +131,77 @@ class ForecastService(PTServingBaseService):
             logger.info(f"Received data type: {type(data)}")
             preprocessed_data = {}
             
-            # Handle JSON input
-            if not any(isinstance(val, dict) for val in data.values()):
-                logger.info("Processing JSON input data")
-                # Try to find the input data with common keys
-                frame_key = next((k for k in ['data', 'frame', 'input', 'values'] if k in data), None)
-                
-                if frame_key is None:
-                    # If no expected key is found, use the first key
-                    frame_key = list(data.keys())[0]
-                
-                frame_data = data[frame_key]
-                frame_np = np.array(frame_data, dtype=np.float32)
-                
-                logger.info(f"Original input shape: {frame_np.shape}")
-                
-                # Check if we have the expected 78x110x24x5 shape
-                if frame_np.shape != (78, 110, 24, 5):
-                    # Try to reshape if the total number of elements matches
-                    if frame_np.size == 78 * 110 * 24 * 5:
-                        frame_np = frame_np.reshape(78, 110, 24, 5)
-                    else:
-                        logger.warning(f"Input shape {frame_np.shape} doesn't match expected (78, 110, 24, 5)")
-                
-                logger.info(f"Processed JSON input to shape: {frame_np.shape}")
-            
-            # Handle file uploads (multipart/form-data)
+            # Handle base64-encoded .npy input
+            if 'npy_base64' in data:
+                logger.info("Detected npy_base64 input")
+
+                # Decode base64 and load the array
+                decoded = base64.b64decode(data['npy_base64'])
+                frame_np = np.load(io.BytesIO(decoded), allow_pickle=False)
             else:
-                logger.info("Processing file upload")
-                for k, v in data.items():
-                    if isinstance(v, dict):
-                        for file_name, file_content in v.items():
-                            logger.info(f"Processing file: {file_name}")
-                            
-                            # Handle numpy files
-                            if file_name.endswith('.npy'):
-                                frame_np = np.load(file_content)
-                            elif file_name.endswith('.npz'):
-                                with np.load(file_content) as npz_data:
-                                    # Use the first array in the archive
-                                    first_key = list(npz_data.keys())[0]
-                                    frame_np = npz_data[first_key]
-                            else:
-                                # Try to interpret as numpy anyway
-                                try:
+                # Handle JSON input
+                if not any(isinstance(val, dict) for val in data.values()):
+                    logger.info("Processing JSON input data")
+                    # Try to find the input data with common keys
+                    frame_key = next((k for k in ['data', 'frame', 'input', 'values'] if k in data), None)
+                    
+                    if frame_key is None:
+                        # If no expected key is found, use the first key
+                        frame_key = list(data.keys())[0]
+                    
+                    frame_data = data[frame_key]
+                    frame_np = np.array(frame_data, dtype=np.float32)
+                    
+                    logger.info(f"Original input shape: {frame_np.shape}")
+                    
+                    # Check if we have the expected 78x110x24x5 shape
+                    if frame_np.shape != (78, 110, 24, 5):
+                        # Try to reshape if the total number of elements matches
+                        if frame_np.size == 78 * 110 * 24 * 5:
+                            frame_np = frame_np.reshape(78, 110, 24, 5)
+                        else:
+                            logger.warning(f"Input shape {frame_np.shape} doesn't match expected (78, 110, 24, 5)")
+                    
+                    logger.info(f"Processed JSON input to shape: {frame_np.shape}")
+                
+                # Handle file uploads (multipart/form-data)
+                else:
+                    logger.info("Processing file upload")
+                    for k, v in data.items():
+                        if isinstance(v, dict):
+                            for file_name, file_content in v.items():
+                                logger.info(f"Processing file: {file_name}")
+                                
+                                # Handle numpy files
+                                if file_name.endswith('.npy'):
                                     frame_np = np.load(file_content)
-                                except Exception as e:
-                                    raise ValueError(f"Unsupported file format: {file_name}. Error: {str(e)}")
-                            
-                            logger.info(f"Original file shape: {frame_np.shape}")
-                            
-                            # Check if we have the expected 78x110x24x5 shape
-                            if frame_np.shape != (78, 110, 24, 5):
-                                # Try to reshape if the total number of elements matches
-                                if frame_np.size == 78 * 110 * 24 * 5:
-                                    frame_np = frame_np.reshape(78, 110, 24, 5)
+                                elif file_name.endswith('.npz'):
+                                    with np.load(file_content) as npz_data:
+                                        # Use the first array in the archive
+                                        first_key = list(npz_data.keys())[0]
+                                        frame_np = npz_data[first_key]
                                 else:
-                                    logger.warning(f"Input shape {frame_np.shape} doesn't match expected (78, 110, 24, 5)")
+                                    # Try to interpret as numpy anyway
+                                    try:
+                                        frame_np = np.load(file_content)
+                                    except Exception as e:
+                                        raise ValueError(f"Unsupported file format: {file_name}. Error: {str(e)}")
+                                
+                                logger.info(f"Original file shape: {frame_np.shape}")
+                                
+                                # Check if we have the expected 78x110x24x5 shape
+                                if frame_np.shape != (78, 110, 24, 5):
+                                    # Try to reshape if the total number of elements matches
+                                    if frame_np.size == 78 * 110 * 24 * 5:
+                                        frame_np = frame_np.reshape(78, 110, 24, 5)
+                                    else:
+                                        logger.warning(f"Input shape {frame_np.shape} doesn't match expected (78, 110, 24, 5)")
             
             # Final validation
             if frame_np.shape != (78, 110, 24, 5):
                 logger.warning(f"Final shape {frame_np.shape} doesn't match expected (78, 110, 24, 5)")
             
+            frame_np = frame_np.astype(np.float32)  # Ensure float32 type
             preprocessed_data['frame'] = frame_np
             return preprocessed_data
             

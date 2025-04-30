@@ -9,7 +9,7 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ activeSection, onFilterChange }: SidebarProps) {
-  const [filter, setFilter] = useState('crime')
+  const [filter, setFilter] = useState('flood')
 
   const handleFilterChange = (newFilter: string) => {
     setFilter(newFilter)
@@ -41,6 +41,14 @@ export default function Sidebar({ activeSection, onFilterChange }: SidebarProps)
           <ul className="space-y-2">
             <li>
               <button 
+                onClick={() => handleFilterChange('flood')}
+                className={`w-full text-left py-1 px-3 rounded ${filter === 'flood' ? 'bg-blue-600' : 'hover:bg-blue-600'}`}
+              >
+                Flood
+              </button>
+            </li>
+            <li>
+              <button 
                 onClick={() => handleFilterChange('crime')}
                 className={`w-full text-left py-1 px-3 rounded ${filter === 'crime' ? 'bg-blue-600' : 'hover:bg-blue-600'}`}
               >
@@ -53,14 +61,6 @@ export default function Sidebar({ activeSection, onFilterChange }: SidebarProps)
                 className={`w-full text-left py-1 px-3 rounded ${filter === 'fire' ? 'bg-blue-600' : 'hover:bg-blue-600'}`}
               >
                 Fire
-              </button>
-            </li>
-            <li>
-              <button 
-                onClick={() => handleFilterChange('flood')}
-                className={`w-full text-left py-1 px-3 rounded ${filter === 'flood' ? 'bg-blue-600' : 'hover:bg-blue-600'}`}
-              >
-                Flood
               </button>
             </li>
           </ul>
