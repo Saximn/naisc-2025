@@ -1,0 +1,50 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 1.5rem;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.risk-high {
+  background-color: rgba(239, 68, 68, 0.7);
+}
+
+.risk-medium {
+  background-color: rgba(249, 115, 22, 0.7);
+}
+
+.risk-low {
+  background-color: rgba(16, 185, 129, 0.7);
+}
+
+.map-container {
+  height: 500px;
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
