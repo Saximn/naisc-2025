@@ -49,7 +49,7 @@ export default function Dashboard() {
         setLoading(true)
         setFetchError(null)
         
-        const response = await fetch('/api/predictions/latest-heatmap?downsample_factor=3')
+        const response = await fetch('/next-api/predictions/latest-heatmap?downsample_factor=3')
         
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`)

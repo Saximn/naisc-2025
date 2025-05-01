@@ -1,3 +1,5 @@
+gunicorn>=20.1.0
+uvicorn>=0.17.0
 Django>=4.0.0
 djangorestframework>=3.13.0
 requests>=2.27.1

@@ -12,7 +12,7 @@
     "axios": "^1.9.0",
     "leaflet": "^1.9.4",
     "mapbox-gl": "^3.11.1",
-    "mapbox-gl-interpolate-heatmap": "^0.8.0",
+    "mapbox-gl-interpolate-heatmap": "git+https://github.com/botlink/mapbox-gl-interpolate-heatmap.git",
     "next": "15.3.1",
     "react": "^19.0.0-rc.1",
     "react-dom": "^19.0.0-rc.1",

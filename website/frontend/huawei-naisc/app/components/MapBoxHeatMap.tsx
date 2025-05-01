@@ -208,7 +208,9 @@ export default function MapboxHeatmap({ incidentType, customData }: MapboxHeatma
           }
 
           // Show popup
-          popup.setLngLat(coordinates).setHTML(description).addTo(map.current)
+          if (map.current) {
+            popup.setLngLat(coordinates).setHTML(description).addTo(map.current)
+          }
         })
 
         map.current.on('mouseleave', 'places', () => {
