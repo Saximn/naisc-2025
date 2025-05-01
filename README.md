@@ -146,6 +146,3 @@ Our system delivers:
 - Reduced incident impact
 - Stronger community resilience
 - Data-driven policy making
-
----
-*For more detailed technical documentation, please refer to the `/docs` directory.*
