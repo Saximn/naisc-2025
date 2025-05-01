@@ -137,7 +137,7 @@ export default function MapboxHeatmap({ incidentType, customData }: MapboxHeatma
       const layer = new MapboxInterpolateHeatmapLayer({
         id: 'temperature',
         data: customData,
-        // aoi: aoidata
+        aoi: aoidata
       })
       
       map.current.addLayer(layer)
@@ -148,7 +148,7 @@ export default function MapboxHeatmap({ incidentType, customData }: MapboxHeatma
         console.log('Custom data:', customData)
         const highRiskPoints = [...customData]
           .sort((a, b) => b.val - a.val)
-          // .filter((point, index) => isPointInPolygon({ lat: point.lat, lon: point.lon }, aoidata))
+          .filter((point, index) => isPointInPolygon({ lat: point.lat, lon: point.lon }, aoidata))
           .slice(0, 3)
           .map((point, index) => ({
             type: "Feature" as const,
