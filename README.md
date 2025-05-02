@@ -113,15 +113,16 @@ Our solution is built on Huawei Cloud with:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/aisdc-2025.git
-cd aisdc-2025
-
-# Install dependencies
-pip install -r requirements.txt
+git clone https://github.com/Saximn/naisc-2025.git
+cd naisc-2025/website
 
 # Configure environment variables
 cp .env.example .env
 # Edit .env with your API keys and configurations
+
+# Build and run the Docker containers
+docker-compose up -d
+
 ```
 
 ## Project Structure
