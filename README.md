@@ -122,20 +122,16 @@ cp .env.example .env
 
 # Build and run the Docker containers
 docker-compose up -d
-
 ```
 
 ## Project Structure
 ```
-aisdc-2025/
+naisc-2025/
 ├── src/
-│   ├── models/          # Deep learning models
+│   ├── models/         # Deep learning models
 │   ├── data/           # Data processing
-│   ├── api/            # API endpoints
-│   └── dashboard/      # Web interface
-├── config/             # Configuration files
-├── tests/             # Unit tests
-├── docs/              # Documentation
+├── assets/             # Images file
+├── website/            # Web application
 └── README.md
 ```
 
